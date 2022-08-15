@@ -1,7 +1,7 @@
 # 02 - Basecalling
 
 Created: 2022/08/11 11:02:25
-Last modified: 2022/08/16 11:35:40
+Last modified: 2022/08/16 11:36:18
 
 - **Aim:** This document documents/describes basecalling for this project
 - **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [GNU coreutils](https://www.gnu.org/software/coreutils/), guppy v6.0.1
@@ -24,7 +24,7 @@ sbatch ./scripts/02_basecalling/01_get_reference.sh
 
 ## Basecalling
 
-The information on the flowcell and kit used in the basecalling script was found in the file at `/mnt/cavia_porcellus/genome_sequencing/guinea_pore_c/20220804_0847_MN34909_FAQ91555_3fb67c88/report_FAQ91555_20220804_0852_3fb67c88.md`
+The information on the flowcell and kit used in the basecalling script was found in the sequencing report file `report_FAQ91555_20220804_0852_3fb67c88.md`
 
 Run bash script to get the run base-calling. See my script at [./scripts/02_basecalling/02_basecalling.sh](https://github.com/leahkemp/guinea_pore_c/blob/main/scripts/02_basecalling/02_basecalling.sh)
 

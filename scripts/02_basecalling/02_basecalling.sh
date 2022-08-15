@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --partition prod
+#SBATCH --partition gpu
 #SBATCH --job-name=02_basecalling
 #SBATCH --time=24:00:00
 #SBATCH --ntasks 1
@@ -28,15 +28,16 @@ echo ""
 echo "Running guppy basecalling"
 echo ""
 
-$software_dir/bin/guppy_basecaller \
---config $software_dir/data/dna_r9.4.1_450bps_sup.cfg \
+singularity run \
+-B $data_dir \
+-B $project_dir \
+docker://nanozoo/guppy_gpu:6.1.7-1--ef8146f \
+guppy_basecaller \
 --input_path $data_dir \
 --save_path $project_dir/results/02_basecalling/basecalling/ \
---chunk_size 1000 \
---chunks_per_runner 20 \
---min_qscore 7 \
---records_per_fastq 4000 \
---num_callers 32 \
+--flowcell FLO-MIN106 \
+--kit SQK-LSK110 \
+--device auto \
 --recursive \
 --bam_out \
 --compress_fastq

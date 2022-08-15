@@ -1,0 +1,21 @@
+
+Running guppy basecalling
+
+ONT Guppy basecalling software version 6.0.1+652ffd1
+config file:        /opt/bioinf/guppy/6.0.1/ont-guppy-cpu/data/dna_r9.4.1_450bps_sup.cfg
+model file:         /opt/admin/bioinf/guppy/6.0.1/ont-guppy-cpu/data/template_r9.4.1_450bps_sup.jsn
+input path:         /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/data
+save path:          /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/02_basecalling/basecalling/
+chunk size:         1000
+chunks per runner:  20
+minimum qscore:     7
+records per file:   4000
+fastq compression:  ON
+num basecallers:    32
+cpu mode:           ON
+threads per caller: 4
+Found 454 fast5 files to process.
+Init time: 11375 ms
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|

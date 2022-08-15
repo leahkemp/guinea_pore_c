@@ -1,0 +1,207 @@
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+
+Creating conda environment with pycoQC installed
+
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/pycoqc
+
+  Updating specs:
+
+   - pycoqc=2.5.2
+
+
+  Package                       Version  Build                    Channel                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                   0.1  conda_forge              conda-forge/linux-64     Cached
+  + _openmp_mutex                   4.5  2_gnu                    conda-forge/linux-64     Cached
+  + attrs                        22.1.0  pyh71513ae_1             conda-forge/noarch       Cached
+  + brotlipy                      0.7.0  py37h540881e_1004        conda-forge/linux-64     Cached
+  + bzip2                         1.0.8  h7f98852_4               conda-forge/linux-64     Cached
+  + c-ares                       1.18.1  h7f98852_0               conda-forge/linux-64     Cached
+  + ca-certificates           2022.6.15  ha878542_0               conda-forge/linux-64     Cached
+  + certifi                   2022.6.15  py37h89c1867_0           conda-forge/linux-64     Cached
+  + cffi                         1.15.1  py37h43b0acd_0           conda-forge/linux-64     Cached
+  + charset-normalizer            2.1.0  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + cryptography                 37.0.1  py37h9ce1e76_0           pkgs/main/linux-64       Cached
+  + curl                         7.83.1  h2283fc2_0               conda-forge/linux-64     Cached
+  + decorator                     5.1.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + h5py                          2.9.0  nompi_py37h513d04c_1104  conda-forge/linux-64     Cached
+  + hdf5                         1.10.5  nompi_h3c11f04_1104      conda-forge/linux-64     Cached
+  + idna                            3.3  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + importlib-metadata           4.11.4  py37h89c1867_0           conda-forge/linux-64     Cached
+  + importlib_resources           5.9.0  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + jinja2                       2.10.1  py_0                     conda-forge/noarch       Cached
+  + jsonschema                    4.9.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + jupyter_core                 4.11.1  py37h89c1867_0           conda-forge/linux-64     Cached
+  + keyutils                      1.6.1  h166bdaf_0               conda-forge/linux-64     Cached
+  + krb5                         1.19.3  h08a2579_0               conda-forge/linux-64     Cached
+  + ld_impl_linux-64             2.36.1  hea4e1c9_2               conda-forge/linux-64     Cached
+  + libblas                       3.9.0  13_linux64_openblas      conda-forge/linux-64     Cached
+  + libcblas                      3.9.0  13_linux64_openblas      conda-forge/linux-64     Cached
+  + libcurl                      7.83.1  h2283fc2_0               conda-forge/linux-64     Cached
+  + libdeflate                      1.3  h516909a_0               conda-forge/linux-64     Cached
+  + libedit                3.1.20191231  he28a2e2_2               conda-forge/linux-64     Cached
+  + libev                          4.33  h516909a_1               conda-forge/linux-64     Cached
+  + libffi                        3.4.2  h7f98852_5               conda-forge/linux-64     Cached
+  + libgcc-ng                    12.1.0  h8d9b700_16              conda-forge/linux-64     Cached
+  + libgfortran-ng                7.5.0  h14aa051_20              conda-forge/linux-64     Cached
+  + libgfortran4                  7.5.0  h14aa051_20              conda-forge/linux-64     Cached
+  + libgomp                      12.1.0  h8d9b700_16              conda-forge/linux-64     Cached
+  + liblapack                     3.9.0  13_linux64_openblas      conda-forge/linux-64     Cached
+  + libnghttp2                   1.47.0  hff17c54_1               conda-forge/linux-64      844kB
+  + libnsl                        2.0.0  h7f98852_0               conda-forge/linux-64     Cached
+  + libopenblas                  0.3.18  hf726d26_0               pkgs/main/linux-64       Cached
+  + libsqlite                    3.39.2  h753d276_1               conda-forge/linux-64      807kB
+  + libssh2                      1.10.0  hf14f497_3               conda-forge/linux-64      239kB
+  + libstdcxx-ng                 12.1.0  ha89aaad_16              conda-forge/linux-64     Cached
+  + libzlib                      1.2.12  h166bdaf_2               conda-forge/linux-64     Cached
+  + markupsafe                    1.1.1  py37h540881e_4           conda-forge/linux-64     Cached
+  + nbformat                      5.4.0  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + ncurses                         6.3  h27087fc_1               conda-forge/linux-64     Cached
+  + numpy                        1.17.1  py37h95a1406_0           conda-forge/linux-64     Cached
+  + openssl                       3.0.5  h166bdaf_1               conda-forge/linux-64     Cached
+  + pandas                       0.25.1  py37he6710b0_0           pkgs/main/linux-64       Cached
+  + pip                          22.2.2  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + pkgutil-resolve-name         1.3.10  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + plotly                        4.1.0  py_0                     conda-forge/noarch       Cached
+  + pycoqc                        2.5.2  py_0                     bioconda/noarch          Cached
+  + pycparser                      2.21  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + pyopenssl                    22.0.0  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + pyrsistent                   0.18.1  py37h540881e_1           conda-forge/linux-64     Cached
+  + pysam                        0.15.3  py37hbcae180_3           bioconda/linux-64        Cached
+  + pysocks                       1.7.1  py37h89c1867_5           conda-forge/linux-64     Cached
+  + python                       3.7.12  hf930737_100_cpython     conda-forge/linux-64     Cached
+  + python-dateutil               2.8.2  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + python-fastjsonschema        2.16.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + python_abi                      3.7  2_cp37m                  conda-forge/linux-64     Cached
+  + pytz                         2022.2  pyhd8ed1ab_0             conda-forge/noarch        258kB
+  + readline                      8.1.2  h0f457ee_0               conda-forge/linux-64     Cached
+  + requests                     2.28.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + retrying                      1.3.3  py_2                     conda-forge/noarch       Cached
+  + scipy                         1.3.1  py37h921218d_2           conda-forge/linux-64     Cached
+  + setuptools                   64.0.3  py37h89c1867_0           conda-forge/linux-64        1MB
+  + six                          1.16.0  pyh6c4a22f_0             conda-forge/noarch       Cached
+  + sqlite                       3.39.2  h4ff8645_1               conda-forge/linux-64      807kB
+  + tk                           8.6.12  h27826a3_0               conda-forge/linux-64     Cached
+  + tqdm                         4.35.0  py_0                     conda-forge/noarch       Cached
+  + traitlets                     5.3.0  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + typing_extensions             4.3.0  pyha770c72_0             conda-forge/noarch       Cached
+  + urllib3                     1.26.11  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + wheel                        0.37.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + xz                            5.2.6  h166bdaf_0               conda-forge/linux-64      418kB
+  + zipp                          3.8.1  pyhd8ed1ab_0             conda-forge/noarch       Cached
+  + zlib                         1.2.12  h166bdaf_2               conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 79 packages
+
+  Total download: 5MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['pycoqc=2.5.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate pycoqc
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Running pycoQC
+
+Checking arguments values
+Check input data files
+Parse data files
+Merge data
+Cleaning data
+	Discarding lines containing NA values
+		1 reads discarded
+	Filtering out zero length reads
+		0 reads discarded
+	Sorting run IDs by decreasing throughput
+		Run-id order ['05abd15943451e65e1f58f17e75bb42bec8a59f7']
+	Reordering runids
+		Processing reads with Run_ID 05abd15943451e65e1f58f17e75bb42bec8a59f7 / time offset: 0
+	Cast value to appropriate type
+	Reindexing dataframe by read_ids
+		515 Final valid reads
+Loading plotting interface
+	Found 515 total reads
+	Found 164 pass reads (qual >= 7.0 and length >= 0)
+Generating HTML report
+	Parsing html config file
+	Running method run_summary
+		Computing plot
+	Running method basecall_summary
+		Computing plot
+	Running method alignment_summary
+		No Alignment information available
+	Running method read_len_1D
+		Computing plot
+	Running method align_len_1D
+		No Alignment information available
+	Running method read_qual_1D
+		Computing plot
+	Running method identity_freq_1D
+		No identity frequency information available
+	Running method read_len_read_qual_2D
+		Computing plot
+	Running method read_len_align_len_2D
+		No Alignment information available
+	Running method align_len_identity_freq_2D
+		No identity frequency information available
+	Running method read_qual_identity_freq_2D
+		No identity frequency information available
+	Running method output_over_time
+		Computing plot
+	Running method read_len_over_time
+		Computing plot
+	Running method read_qual_over_time
+		Computing plot
+	Running method align_len_over_time
+		No Alignment information available
+	Running method identity_freq_over_time
+		No identity frequency information available
+	Running method barcode_counts
+		No barcode information available
+	Running method channels_activity
+		Computing plot
+	Running method alignment_reads_status
+		No Alignment information available
+	Running method alignment_rate
+		No identity frequency information available
+	Running method alignment_coverage
+		No Alignment information available
+	Loading HTML template
+	Rendering plots in d3js
+	Writing to HTML file

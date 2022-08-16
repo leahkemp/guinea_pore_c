@@ -5,5 +5,3 @@ seq_reports/
 
 results/02_basecalling/
 results/04_pore_c_snakemake_pipeline_run/
-
-logs/02_basecalling/

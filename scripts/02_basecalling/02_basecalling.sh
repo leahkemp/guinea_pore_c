@@ -14,9 +14,6 @@ project_dir="/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c"
 # configure file path to data directory
 data_dir="/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/data"
 
-# configure file path to software directory
-software_dir="/opt/bioinf/guppy/6.0.1/ont-guppy-cpu"
-
 # remove any old outputs of this script to avoid results being written twice to a file
 rm -rf $project_dir/results/02_basecalling/*
 
@@ -40,4 +37,5 @@ guppy_basecaller \
 --device auto \
 --recursive \
 --bam_out \
---compress_fastq
+--compress_fastq \
+--index

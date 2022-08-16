@@ -1,0 +1,144 @@
+
+Running pycoQC on initial basecalling
+
+time="2022-08-17T10:20:01+12:00" level=warning msg="\"/run/user/1372\" directory set by $XDG_RUNTIME_DIR does not exist. Either create the directory or unset $XDG_RUNTIME_DIR.: stat /run/user/1372: no such file or directory: Trying to pull image in the event that it is a public image."
+INFO:    Using cached SIF image
+Checking arguments values
+Check input data files
+Parse data files
+Merge data
+Cleaning data
+	Discarding lines containing NA values
+		0 reads discarded
+	Filtering out zero length reads
+		0 reads discarded
+	Sorting run IDs by decreasing throughput
+		Run-id order ['05abd15943451e65e1f58f17e75bb42bec8a59f7', 'ab35bd759a83f4cfd47b31d0a1afced3037e840c']
+	Reordering runids
+		Processing reads with Run_ID 05abd15943451e65e1f58f17e75bb42bec8a59f7 / time offset: 0
+		Processing reads with Run_ID ab35bd759a83f4cfd47b31d0a1afced3037e840c / time offset: 22894.06075
+	Cast value to appropriate type
+	Reindexing dataframe by read_ids
+		1,805,935 Final valid reads
+Loading plotting interface
+	Found 1,805,935 total reads
+	Found 1,575,443 pass reads (qual >= 7.0 and length >= 0)
+Generating HTML report
+	Parsing html config file
+	Running method run_summary
+		Computing plot
+	Running method basecall_summary
+		Computing plot
+	Running method alignment_summary
+		No Alignment information available
+	Running method read_len_1D
+		Computing plot
+	Running method align_len_1D
+		No Alignment information available
+	Running method read_qual_1D
+		Computing plot
+	Running method identity_freq_1D
+		No identity frequency information available
+	Running method read_len_read_qual_2D
+		Computing plot
+	Running method read_len_align_len_2D
+		No Alignment information available
+	Running method align_len_identity_freq_2D
+		No identity frequency information available
+	Running method read_qual_identity_freq_2D
+		No identity frequency information available
+	Running method output_over_time
+		Computing plot
+	Running method read_len_over_time
+		Computing plot
+	Running method read_qual_over_time
+		Computing plot
+	Running method align_len_over_time
+		No Alignment information available
+	Running method identity_freq_over_time
+		No identity frequency information available
+	Running method barcode_counts
+		No barcode information available
+	Running method channels_activity
+		Computing plot
+	Running method alignment_reads_status
+		No Alignment information available
+	Running method alignment_rate
+		No identity frequency information available
+	Running method alignment_coverage
+		No Alignment information available
+	Loading HTML template
+	Rendering plots in d3js
+	Writing to HTML file
+
+Running pycoQC on new basecalling
+
+time="2022-08-17T10:20:29+12:00" level=warning msg="\"/run/user/1372\" directory set by $XDG_RUNTIME_DIR does not exist. Either create the directory or unset $XDG_RUNTIME_DIR.: stat /run/user/1372: no such file or directory: Trying to pull image in the event that it is a public image."
+INFO:    Using cached SIF image
+Checking arguments values
+Check input data files
+Parse data files
+Merge data
+Cleaning data
+	Discarding lines containing NA values
+		0 reads discarded
+	Filtering out zero length reads
+		0 reads discarded
+	Sorting run IDs by decreasing throughput
+		Run-id order ['05abd15943451e65e1f58f17e75bb42bec8a59f7', 'ab35bd759a83f4cfd47b31d0a1afced3037e840c']
+	Reordering runids
+		Processing reads with Run_ID 05abd15943451e65e1f58f17e75bb42bec8a59f7 / time offset: 0
+		Processing reads with Run_ID ab35bd759a83f4cfd47b31d0a1afced3037e840c / time offset: 22894.06075
+	Cast value to appropriate type
+	Reindexing dataframe by read_ids
+		1,805,935 Final valid reads
+Loading plotting interface
+	Found 1,805,935 total reads
+	Found 1,614,865 pass reads (qual >= 7.0 and length >= 0)
+Generating HTML report
+	Parsing html config file
+	Running method run_summary
+		Computing plot
+	Running method basecall_summary
+		Computing plot
+	Running method alignment_summary
+		No Alignment information available
+	Running method read_len_1D
+		Computing plot
+	Running method align_len_1D
+		No Alignment information available
+	Running method read_qual_1D
+		Computing plot
+	Running method identity_freq_1D
+		No identity frequency information available
+	Running method read_len_read_qual_2D
+		Computing plot
+	Running method read_len_align_len_2D
+		No Alignment information available
+	Running method align_len_identity_freq_2D
+		No identity frequency information available
+	Running method read_qual_identity_freq_2D
+		No identity frequency information available
+	Running method output_over_time
+		Computing plot
+	Running method read_len_over_time
+		Computing plot
+	Running method read_qual_over_time
+		Computing plot
+	Running method align_len_over_time
+		No Alignment information available
+	Running method identity_freq_over_time
+		No identity frequency information available
+	Running method barcode_counts
+		No barcode information available
+	Running method channels_activity
+		Computing plot
+	Running method alignment_reads_status
+		No Alignment information available
+	Running method alignment_rate
+		No identity frequency information available
+	Running method alignment_coverage
+		No Alignment information available
+	Loading HTML template
+	Rendering plots in d3js
+	Writing to HTML file

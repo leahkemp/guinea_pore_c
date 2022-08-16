@@ -36,6 +36,5 @@ guppy_basecaller \
 --kit SQK-LSK110 \
 --device auto \
 --recursive \
---bam_out \
 --compress_fastq \
---index
+--fast5_out

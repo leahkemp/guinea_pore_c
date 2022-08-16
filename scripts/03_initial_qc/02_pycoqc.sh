@@ -4,8 +4,8 @@
 #SBATCH --job-name=01_pycoqc
 #SBATCH --time=00:30:00
 #SBATCH --ntasks 1
-#SBATCH --cpus-per-task 16
-#SBATCH --mem 10G
+#SBATCH --cpus-per-task 1
+#SBATCH --mem 1G
 #SBATCH --output="./logs/03_initial_qc/slurm-%j-%x.out"
 
 # configure file path to project directory
@@ -23,27 +23,15 @@ rm -rf $project_dir/results/03_initial_qc/*
 # create results directory if it doesn't yet exist
 mkdir -p $project_dir/results/03_initial_qc/pycoqc/
 
-# set the shell to be used by conda for this script (and re-start shell to implement changes)
-echo ""
-echo "Configuring conda"
-echo ""
-
-conda init bash
-source ~/.bashrc
-
-# create conda environment with pycoqc installed and activate it
-echo ""
-echo "Creating conda environment with pycoQC installed"
-echo ""
-
-mamba env create --force -f $project_dir/scripts/envs/conda.pycoqc.2.5.2.yml
-conda activate pycoqc
-
 # run pycoQC on initial basecalling
 echo ""
 echo "Running pycoQC on initial basecalling"
 echo ""
 
+singularity run \
+-B $seq_reports_dir \
+-B $project_dir \
+docker://nanozoo/pycoqc:2.5.0.23--320ecc7 \
 pycoQC \
 --summary_file $seq_reports_dir/sequencing_summary_FAQ91555.txt \
 --html_outfile $project_dir/results/03_initial_qc/pycoqc/pycoqc_initial_basecalling.html
@@ -53,6 +41,9 @@ echo ""
 echo "Running pycoQC on new basecalling"
 echo ""
 
+singularity run \
+-B $project_dir \
+docker://nanozoo/pycoqc:2.5.0.23--320ecc7 \
 pycoQC \
 --summary_file $project_dir/results/02_basecalling/basecalling/sequencing_summary.txt \
 --html_outfile $project_dir/results/03_initial_qc/pycoqc/pycoqc.html

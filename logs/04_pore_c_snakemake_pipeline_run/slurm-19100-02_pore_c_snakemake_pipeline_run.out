@@ -2,7 +2,7 @@
 Getting pore-c snakemake pipeline
 
 Cloning into './results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake'...
-Filtering content:  33% (2/6)   Filtering content:  50% (3/6)   Filtering content:  66% (4/6)   Filtering content:  83% (5/6), 900.64 KiB | 1.37 MiB/s   Filtering content: 100% (6/6), 900.64 KiB | 1.37 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 10.05 MiB/s, done.
+Filtering content:  33% (2/6)   Filtering content:  50% (3/6)   Filtering content:  66% (4/6)   Filtering content:  83% (5/6)   Filtering content:  83% (5/6), 22.53 MiB | 24.47 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 24.47 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 10.91 MiB/s, done.
 Note: checking out 'tags/0.3.0'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -34,6 +34,10 @@ No action taken.
 
 Creating conda environment with pipeline dependencies installed
 
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
 Transaction
 
   Prefix: /home/lkemp/miniconda3/envs/pore-c-snakemake
@@ -62,14 +66,14 @@ Transaction
   + backports                             1.0  py_2                 conda-forge/noarch       Cached
   + backports.functools_lru_cache       1.6.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + bcrypt                              3.2.2  py38h0a891b7_0       conda-forge/linux-64     Cached
-  + boto3                             1.24.52  pyhd8ed1ab_0         conda-forge/noarch         74kB
-  + botocore                          1.27.52  pyhd8ed1ab_0         conda-forge/noarch          6MB
+  + boto3                             1.24.52  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + botocore                          1.27.52  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + brotlipy                            0.7.0  py38h0a891b7_1004    conda-forge/linux-64     Cached
   + bzip2                               1.0.8  h7f98852_4           conda-forge/linux-64     Cached
   + c-ares                             1.18.1  h7f98852_0           conda-forge/linux-64     Cached
   + ca-certificates                 2022.6.15  ha878542_0           conda-forge/linux-64     Cached
   + cachetools                          5.2.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + cairo                              1.16.0  ha61ee94_1012        conda-forge/linux-64        2MB
+  + cairo                              1.16.0  ha61ee94_1012        conda-forge/linux-64     Cached
   + certifi                         2022.6.15  py38h578d9bd_0       conda-forge/linux-64     Cached
   + cffi                               1.15.1  py38h4a40e3a_0       conda-forge/linux-64     Cached
   + charset-normalizer                  2.1.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
@@ -90,7 +94,7 @@ Transaction
   + fontconfig                         2.14.0  h8e229c2_0           conda-forge/linux-64     Cached
   + fonts-conda-ecosystem                   1  0                    conda-forge/noarch       Cached
   + fonts-conda-forge                       1  0                    conda-forge/noarch       Cached
-  + freetype                           2.12.1  hca18f0e_0           conda-forge/linux-64      905kB
+  + freetype                           2.12.1  hca18f0e_0           conda-forge/linux-64     Cached
   + fribidi                            1.0.10  h36c2ea0_0           conda-forge/linux-64     Cached
   + frozenlist                          1.3.1  py38h0a891b7_0       conda-forge/linux-64     Cached
   + ftputil                             5.0.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
@@ -101,7 +105,7 @@ Transaction
   + gitdb                               4.0.9  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + gitpython                          3.1.27  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + google-api-core                     2.8.2  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + google-api-python-client           2.57.0  pyhd8ed1ab_0         conda-forge/noarch          5MB
+  + google-api-python-client           2.57.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + google-auth                        2.10.0  pyh6c4a22f_0         conda-forge/noarch       Cached
   + google-auth-httplib2                0.1.0  pyhd8ed1ab_1         conda-forge/noarch       Cached
   + google-cloud-core                   2.3.2  pyhd8ed1ab_0         conda-forge/noarch       Cached
@@ -111,15 +115,15 @@ Transaction
   + googleapis-common-protos           1.56.4  py38h578d9bd_0       conda-forge/linux-64     Cached
   + graphite2                          1.3.13  h58526e2_1001        conda-forge/linux-64     Cached
   + graphviz                            5.0.0  h5abf519_0           conda-forge/linux-64     Cached
-  + grpc-cpp                           1.48.0  hbad87ad_3           conda-forge/linux-64        5MB
-  + grpcio                             1.48.0  py38h5b6373e_3       conda-forge/linux-64      859kB
+  + grpc-cpp                           1.48.0  hbad87ad_3           conda-forge/linux-64     Cached
+  + grpcio                             1.48.0  py38h5b6373e_3       conda-forge/linux-64     Cached
   + gtk2                              2.24.33  h90689f9_2           conda-forge/linux-64     Cached
   + gts                                 0.7.6  h64030ff_2           conda-forge/linux-64     Cached
   + harfbuzz                            5.1.0  hf9f4e7c_0           conda-forge/linux-64     Cached
   + httplib2                           0.20.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + icu                                  70.1  h27087fc_0           conda-forge/linux-64     Cached
   + idna                                  3.3  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + imagemagick                      7.1.0_45  pl5321hae1b4c2_1     conda-forge/linux-64        3MB
+  + imagemagick                      7.1.0_45  pl5321hae1b4c2_1     conda-forge/linux-64     Cached
   + importlib-metadata                 4.11.4  py38h578d9bd_0       conda-forge/linux-64     Cached
   + importlib_resources                 5.9.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + jbig                                  2.1  h7f98852_2003        conda-forge/linux-64     Cached
@@ -130,7 +134,7 @@ Transaction
   + jupyter_core                       4.11.1  py38h578d9bd_0       conda-forge/linux-64     Cached
   + ld_impl_linux-64                   2.36.1  hea4e1c9_2           conda-forge/linux-64     Cached
   + lerc                                4.0.0  h27087fc_0           conda-forge/linux-64     Cached
-  + libabseil                      20220623.0  cxx17_h48a1fff_1     conda-forge/linux-64        1MB
+  + libabseil                      20220623.0  cxx17_h48a1fff_1     conda-forge/linux-64     Cached
   + libblas                             3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
   + libcblas                            3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
   + libcrc32c                           1.1.2  h9c3ff4c_0           conda-forge/linux-64     Cached
@@ -146,8 +150,8 @@ Transaction
   + liblapack                           3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
   + libnsl                              2.0.0  h7f98852_0           conda-forge/linux-64     Cached
   + libopenblas                        0.3.21  pthreads_h78a6416_0  conda-forge/linux-64     Cached
-  + libpng                             1.6.37  h753d276_4           conda-forge/linux-64      380kB
-  + libprotobuf                        3.20.1  h6239696_1           conda-forge/linux-64        3MB
+  + libpng                             1.6.37  h753d276_4           conda-forge/linux-64     Cached
+  + libprotobuf                        3.20.1  h6239696_1           conda-forge/linux-64     Cached
   + librsvg                            2.54.4  h7abd40a_0           conda-forge/linux-64     Cached
   + libsodium                          1.0.18  h36c2ea0_1           conda-forge/linux-64     Cached
   + libsqlite                          3.39.2  h753d276_1           conda-forge/linux-64     Cached
@@ -155,10 +159,10 @@ Transaction
   + libtiff                             4.4.0  h0e0dad5_3           conda-forge/linux-64     Cached
   + libtool                             2.4.6  h9c3ff4c_1008        conda-forge/linux-64     Cached
   + libuuid                            2.32.1  h7f98852_1000        conda-forge/linux-64     Cached
-  + libwebp                             1.2.4  h522a892_0           conda-forge/linux-64       90kB
+  + libwebp                             1.2.4  h522a892_0           conda-forge/linux-64     Cached
   + libwebp-base                        1.2.4  h166bdaf_0           conda-forge/linux-64     Cached
   + libxcb                               1.13  h7f98852_1004        conda-forge/linux-64     Cached
-  + libxml2                            2.9.14  h22db469_4           conda-forge/linux-64      789kB
+  + libxml2                            2.9.14  h22db469_4           conda-forge/linux-64     Cached
   + libzlib                            1.2.12  h166bdaf_2           conda-forge/linux-64     Cached
   + lz4-c                               1.9.3  h9c3ff4c_1           conda-forge/linux-64     Cached
   + markupsafe                          2.1.1  py38h0a891b7_1       conda-forge/linux-64     Cached
@@ -166,12 +170,12 @@ Transaction
   + nbformat                            5.4.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + ncurses                               6.3  h27087fc_1           conda-forge/linux-64     Cached
   + networkx                            2.8.5  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + numpy                              1.23.2  py38h3a7f9d9_0       conda-forge/linux-64        7MB
+  + numpy                              1.23.2  py38h3a7f9d9_0       conda-forge/linux-64     Cached
   + oauth2client                        4.1.3  py_0                 conda-forge/noarch       Cached
-  + openjpeg                            2.5.0  h7d73246_1           conda-forge/linux-64      546kB
+  + openjpeg                            2.5.0  h7d73246_1           conda-forge/linux-64     Cached
   + openssl                            1.1.1q  h166bdaf_0           conda-forge/linux-64     Cached
   + pandas                              1.0.5  py38hcb8c335_0       conda-forge/linux-64     Cached
-  + pango                              1.50.9  hc4f8a73_0           conda-forge/linux-64      471kB
+  + pango                              1.50.9  hc4f8a73_0           conda-forge/linux-64     Cached
   + paramiko                           2.11.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pcre                                 8.45  h9c3ff4c_0           conda-forge/linux-64     Cached
   + perl                               5.32.1  2_h7f98852_perl5     conda-forge/linux-64     Cached
@@ -187,7 +191,7 @@ Transaction
   + pyasn1                              0.4.8  py_0                 conda-forge/noarch       Cached
   + pyasn1-modules                      0.2.7  py_0                 conda-forge/noarch       Cached
   + pycparser                            2.21  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + pygments                           2.13.0  pyhd8ed1ab_0         conda-forge/noarch        840kB
+  + pygments                           2.13.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pygraphviz                            1.9  py38ha203ad8_3       conda-forge/linux-64     Cached
   + pynacl                              1.5.0  py38h0a891b7_1       conda-forge/linux-64     Cached
   + pyopenssl                          22.0.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
@@ -201,7 +205,7 @@ Transaction
   + python-fastjsonschema              2.16.1  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + python-irodsclient                  1.1.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + python_abi                            3.8  2_cp38               conda-forge/linux-64     Cached
-  + pytz                             2022.2.1  pyhd8ed1ab_0         conda-forge/noarch        229kB
+  + pytz                             2022.2.1  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pyu2f                               0.1.5  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pyyaml                                6.0  py38h0a891b7_4       conda-forge/linux-64     Cached
   + ratelimiter                         1.2.0  py_1002              conda-forge/noarch       Cached
@@ -248,13 +252,13 @@ Transaction
   + yarl                                1.7.2  py38h0a891b7_2       conda-forge/linux-64     Cached
   + zipp                                3.8.1  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + zlib                               1.2.12  h166bdaf_2           conda-forge/linux-64     Cached
-  + zstd                                1.5.2  h8a70e8d_4           conda-forge/linux-64      459kB
+  + zstd                                1.5.2  h8a70e8d_4           conda-forge/linux-64     Cached
 
   Summary:
 
   Install: 199 packages
 
-  Total download: 38MB
+  Total download: 0 B
 
 ─────────────────────────────────────────────────────────────────────────────────────────────────────
 
@@ -266,3 +270,25 @@ Looking for: ['pandas==1.0.5', 'python-box==4.2.3', 'snakemake==5.19.3']
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... 
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate pore-c-snakemake
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Generating pore-c snakemake pipeline DAG
+
+Building DAG of jobs...
+
+Generating pore-c snakemake pipeline rulegraph
+
+Building DAG of jobs...
+
+Running pore-c snakemake pipeline
+

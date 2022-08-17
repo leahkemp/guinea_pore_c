@@ -4,4 +4,6 @@ data/
 seq_reports/
 
 results/02_basecalling/
-results/04_pore_c_snakemake_pipeline_run/
+results/04_pore_c_snakemake_pipeline_run/reference_genome/
+results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
+results/04_pore_c_snakemake_pipeline_run/pore_c_snakemake_pipeline_run/

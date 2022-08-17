@@ -50,7 +50,6 @@ cd ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 
 snakemake \
 --configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
---use-conda \
 --dag | dot -Tpng > ../pore_c_snakemake_pipeline_run/pipeline_dag.png
 
 # generate pore-c snakemake pipeline rulegraph
@@ -60,7 +59,6 @@ echo ""
 
 snakemake \
 --configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
---use-conda \
 --rulegraph | dot -Tpng > ../pore_c_snakemake_pipeline_run/pipeline_rulegraph.png
 
 # run pore-c snakemake pipeline
@@ -71,4 +69,5 @@ echo ""
 snakemake \
 --configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
 --use-conda \
+--conda-frontend mamba \
 --cores 24

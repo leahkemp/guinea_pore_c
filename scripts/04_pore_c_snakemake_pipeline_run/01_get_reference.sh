@@ -11,11 +11,8 @@
 # configure file path to project directory
 project_dir="/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c"
 
-# configure file path to temporary directory
-tmp_dir="/NGS/clinicalgenomics/tmp/guinea_pore_c"
-
-# create temporary directory if it doesn't yet exist
-mkdir -p $tmp_dir/reference_genome/
+# create results directory if it doesn't yet exist
+mkdir -p $project_dir/results/04_pore_c_snakemake_pipeline_run/reference_genome/
 
 # set the shell to be used by conda for this script (and re-start shell to implement changes)
 echo ""
@@ -38,6 +35,6 @@ echo ""
 echo "Getting guinea pig reference genome"
 echo ""
 
-if [ ! -f "$tmp_dir/reference_genome/GCF_000151735.1_Cavpor3.0_genomic.fna.gz" ]; then
-    wget https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Cavia_porcellus/latest_assembly_versions/GCF_000151735.1_Cavpor3.0/GCF_000151735.1_Cavpor3.0_genomic.fna.gz -P $tmp_dir/reference_genome/
+if [ ! -f "$project_dir/results/04_pore_c_snakemake_pipeline_run/reference_genome/GCF_000151735.1_Cavpor3.0_genomic.fna.gz" ]; then
+    wget https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Cavia_porcellus/latest_assembly_versions/GCF_000151735.1_Cavpor3.0/GCF_000151735.1_Cavpor3.0_genomic.fna.gz -P $project_dir/results/04_pore_c_snakemake_pipeline_run/reference_genome/
 fi

@@ -5,7 +5,7 @@ references: "../../../config/04_pore_c_snakemake_pipeline_run/references.tsv"
 phased_vcfs: "../../../config/04_pore_c_snakemake_pipeline_run/phased_vcfs.tsv"
 file_layout: "../../../config/04_pore_c_snakemake_pipeline_run/file_layout.yaml"
 
-output_dir: "../pore_c_snakemake_pipeline_run/"
+output_dir: "../pore_c_snakemake_pipeline_run/results/"
 
 # a run will be split into batches of this size at the start of a pipeline in order
 # to permit parallel execution. Warning - if this is set too low then snakemake can

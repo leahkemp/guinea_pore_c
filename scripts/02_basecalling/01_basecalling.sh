@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --partition gpu
-#SBATCH --job-name=02_basecalling
-#SBATCH --time=24:00:00
+#SBATCH --job-name=01_basecalling
+#SBATCH --time=12:00:00
 #SBATCH --ntasks 1
 #SBATCH --cpus-per-task 32
 #SBATCH --mem 10G

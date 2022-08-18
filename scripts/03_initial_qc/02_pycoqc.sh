@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --partition prod
-#SBATCH --job-name=01_pycoqc
+#SBATCH --job-name=02_pycoqc
 #SBATCH --time=00:30:00
 #SBATCH --ntasks 1
 #SBATCH --cpus-per-task 1

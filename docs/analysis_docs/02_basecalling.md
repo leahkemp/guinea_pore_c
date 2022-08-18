@@ -1,10 +1,10 @@
 # 02 - Basecalling
 
 Created: 2022/08/11 11:02:25
-Last modified: 2022/08/18 13:13:27
+Last modified: 2022/08/18 13:15:33
 
 - **Aim:** This document documents/describes basecalling for this project
-- **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [GNU coreutils](https://www.gnu.org/software/coreutils/), guppy v6.0.1
+- **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [GNU coreutils](https://www.gnu.org/software/coreutils/)
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents

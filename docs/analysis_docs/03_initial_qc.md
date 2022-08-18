@@ -1,10 +1,10 @@
 # 03 - Initial QC
 
 Created: 2022/08/10 15:30:51
-Last modified: 2022/08/16 16:27:37
+Last modified: 2022/08/18 13:17:16
 
 - **Aim:** This document documents/describes initial QC for this project
-- **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [singularity](https://docs.sylabs.io/guides/3.1/user-guide/index.html) v3.7.2-1.el7, [conda](https://docs.conda.io/en/latest/) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/index.html) v0.24.0, [GNU coreutils](https://www.gnu.org/software/coreutils/)
+- **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [singularity](https://docs.sylabs.io/guides/3.1/user-guide/index.html) v3.7.2-1.el7, [GNU coreutils](https://www.gnu.org/software/coreutils/)
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents
@@ -26,7 +26,7 @@ sbatch ./scripts/03_initial_qc/01_merge_summary_reports.sh
 
 ## pycoQC
 
-Run bash script to get the run pycoQC. See my script at [./scripts/03_initial_qc/01_pycoqc.sh](https://github.com/leahkemp/guinea_pore_c/blob/main/scripts/03_initial_qc/01_pycoqc.sh)
+Run bash script to get the run pycoQC. See my script at [./scripts/03_initial_qc/02_pycoqc.sh](https://github.com/leahkemp/guinea_pore_c/blob/main/scripts/03_initial_qc/02_pycoqc.sh)
 
 ```bash
 sbatch ./scripts/03_initial_qc/02_pycoqc.sh

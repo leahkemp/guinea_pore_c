@@ -1,10 +1,10 @@
 # 05 - Look at outputs
 
 Created: 2022/08/10 15:30:51
-Last modified: 2022/08/18 17:33:51
+Last modified: 2022/08/18 17:46:45
 
 - **Aim:** This document documents/describes looking at the outputs of the analyses for this project
-- **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [singularity](https://docs.sylabs.io/guides/3.1/user-guide/index.html) v3.7.2-1.el7, [GNU coreutils](https://www.gnu.org/software/coreutils/)
+- **Prerequisite software:** [conda](https://docs.conda.io/en/latest/) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/index.html) v0.24.0, [GNU coreutils](https://www.gnu.org/software/coreutils/)
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents

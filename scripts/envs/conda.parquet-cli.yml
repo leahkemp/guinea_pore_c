@@ -1,0 +1,9 @@
+name: parquet-cli
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pip=22.2.2
+  - pip:
+    - parquet-cli

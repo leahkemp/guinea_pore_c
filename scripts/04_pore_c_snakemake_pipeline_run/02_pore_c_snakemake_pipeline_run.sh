@@ -8,22 +8,21 @@
 #SBATCH --mem 80G
 #SBATCH --output="./logs/04_pore_c_snakemake_pipeline_run/slurm-%j-%x.out"
 
-# remove any old outputs of this script to avoid results being written twice to a file
-rm -rf ./results/04_pore_c_snakemake_pipeline_run/pore_c_snakemake_pipeline_run/
-rm -rf ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
+# configure file path to project directory
+project_dir="/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c"
 
-# create results directory if it doesn't yet exist
-mkdir -p ./results/04_pore_c_snakemake_pipeline_run/pore_c_snakemake_pipeline_run/
+# remove any old outputs of this script to avoid results being written twice to a file
+rm -rf $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 
 # get pore-c snakemake pipeline
 echo ""
 echo "Getting pore-c snakemake pipeline"
 echo ""
 
-git clone https://github.com/nanoporetech/Pore-C-Snakemake.git ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
-cd ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
+git clone https://github.com/nanoporetech/Pore-C-Snakemake.git $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
+cd $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 git checkout tags/0.3.0
-cd ../../../
+cd $project_dir/
 
 # set the shell to be used by conda for this script (and re-start shell to implement changes)
 echo ""
@@ -38,7 +37,7 @@ echo ""
 echo "Creating conda environment with pipeline dependencies installed"
 echo ""
 
-mamba env create --force -f ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/environment.yml
+mamba env create --force -f $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/environment.yml
 conda activate pore-c-snakemake
 
 # generate pore-c snakemake pipeline DAG
@@ -46,11 +45,11 @@ echo ""
 echo "Generating pore-c snakemake pipeline DAG"
 echo ""
 
-cd ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
+cd $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 
 snakemake \
---configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
---dag | dot -Tpng > ../pore_c_snakemake_pipeline_run/pipeline_dag.png
+--configfile $project_dir/config/04_pore_c_snakemake_pipeline_run/config.yaml \
+--dag | dot -Tpng > $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/pipeline_dag.png
 
 # generate pore-c snakemake pipeline rulegraph
 echo ""
@@ -58,8 +57,8 @@ echo "Generating pore-c snakemake pipeline rulegraph"
 echo ""
 
 snakemake \
---configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
---rulegraph | dot -Tpng > ../pore_c_snakemake_pipeline_run/pipeline_rulegraph.png
+--configfile $project_dir/config/04_pore_c_snakemake_pipeline_run/config.yaml \
+--rulegraph | dot -Tpng > $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/pipeline_rulegraph.png
 
 # run pore-c snakemake pipeline
 echo ""
@@ -67,7 +66,7 @@ echo "Running pore-c snakemake pipeline"
 echo ""
 
 snakemake \
---configfile ../../../config/04_pore_c_snakemake_pipeline_run/config.yaml \
+--configfile $project_dir/config/04_pore_c_snakemake_pipeline_run/config.yaml \
 --use-conda \
 --conda-frontend mamba \
 --cores 24

@@ -1,7 +1,7 @@
 # 04 - pore-c-snakemake pipeline run
 
 Created: 2022/08/10 15:03:33
-Last modified: 2022/08/18 13:18:01
+Last modified: 2022/08/19 12:27:23
 
 - **Aim:** This document documents/describes running the [pore-c-snakemake pipeline](https://github.com/nanoporetech/Pore-C-Snakemake)
 - **Prerequisite software:** [slurm](https://slurm.schedmd.com/overview.html) v20.11.6, [conda](https://docs.conda.io/en/latest/) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/index.html) v0.24.0, [GNU coreutils](https://www.gnu.org/software/coreutils/), [git](https://git-scm.com/) v1.8.3.1
@@ -13,6 +13,7 @@ Last modified: 2022/08/18 13:18:01
   - [Table of contents](#table-of-contents)
   - [Get reference genome](#get-reference-genome)
   - [Run pore-c pipeline](#run-pore-c-pipeline)
+  - [Move pipeline results away from pipeline](#move-pipeline-results-away-from-pipeline)
 
 ## Get reference genome
 
@@ -28,4 +29,15 @@ Run bash script to run [pore-c](https://github.com/nanoporetech/pore-c/) on all 
 
 ```bash
 sbatch ./scripts/04_pore_c_snakemake_pipeline_run/02_pore_c_snakemake_pipeline_run.sh
+```
+
+## Move pipeline results away from pipeline
+
+This couldn't be done in the pipeline so manually doing here, this is for ease of use when pushing to github repo
+
+```bash
+mkdir -p ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/
+mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/* ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/
+mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/pipeline_dag.png ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/
+mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/pipeline_rulegraph.png ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/
 ```

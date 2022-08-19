@@ -1,0 +1,107 @@
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+
+Creating conda environment with parquet-cli installed
+
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/parquet-cli
+
+  Updating specs:
+
+   - pip=22.2.2
+
+
+  Package               Version  Build               Channel                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64     Cached
+  + _openmp_mutex           4.5  2_gnu               conda-forge/linux-64     Cached
+  + bzip2                 1.0.8  h7f98852_4          conda-forge/linux-64     Cached
+  + ca-certificates   2022.6.15  ha878542_0          conda-forge/linux-64     Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64     Cached
+  + libffi                3.4.2  h7f98852_5          conda-forge/linux-64     Cached
+  + libgcc-ng            12.1.0  h8d9b700_16         conda-forge/linux-64     Cached
+  + libgomp              12.1.0  h8d9b700_16         conda-forge/linux-64     Cached
+  + libnsl                2.0.0  h7f98852_0          conda-forge/linux-64     Cached
+  + libsqlite            3.39.2  h753d276_1          conda-forge/linux-64     Cached
+  + libuuid              2.32.1  h7f98852_1000       conda-forge/linux-64     Cached
+  + libzlib              1.2.12  h166bdaf_2          conda-forge/linux-64     Cached
+  + ncurses                 6.3  h27087fc_1          conda-forge/linux-64     Cached
+  + openssl               3.0.5  h166bdaf_1          conda-forge/linux-64     Cached
+  + pip                  22.2.2  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + python               3.10.5  ha86cf86_0_cpython  conda-forge/linux-64     Cached
+  + python_abi             3.10  2_cp310             conda-forge/linux-64     Cached
+  + readline              8.1.2  h0f457ee_0          conda-forge/linux-64     Cached
+  + setuptools           65.0.2  py310hff52083_0     conda-forge/linux-64     Cached
+  + sqlite               3.39.2  h4ff8645_1          conda-forge/linux-64     Cached
+  + tk                   8.6.12  h27826a3_0          conda-forge/linux-64     Cached
+  + tzdata                2022c  h191b570_0          conda-forge/noarch       Cached
+  + wheel                0.37.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + xz                    5.2.6  h166bdaf_0          conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 24 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['pip=22.2.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Installing pip dependencies: ...working... Ran pip subprocess with arguments:
+['/home/lkemp/miniconda3/envs/parquet-cli/bin/python', '-m', 'pip', 'install', '-U', '-r', '/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/scripts/envs/condaenv.wuezankx.requirements.txt']
+Pip subprocess output:
+Collecting parquet-cli
+  Using cached parquet_cli-1.3-py2.py3-none-any.whl (3.6 kB)
+Collecting pandas>=0.22.0
+  Using cached pandas-1.4.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+Collecting pyarrow>=0.9.0.post1
+  Using cached pyarrow-9.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (35.3 MB)
+Collecting python-dateutil>=2.8.1
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting numpy>=1.21.0
+  Using cached numpy-1.23.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.0 MB)
+Collecting pytz>=2020.1
+  Using cached pytz-2022.2.1-py2.py3-none-any.whl (500 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, six, numpy, python-dateutil, pyarrow, pandas, parquet-cli
+Successfully installed numpy-1.23.2 pandas-1.4.3 parquet-cli-1.3 pyarrow-9.0.0 python-dateutil-2.8.2 pytz-2022.2.1 six-1.16.0
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate parquet-cli
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Having a look at the head of one of the parquet files
+

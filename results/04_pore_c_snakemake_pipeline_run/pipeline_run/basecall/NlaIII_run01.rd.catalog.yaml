@@ -1,0 +1,43 @@
+name: pore_c_raw_reads
+description: A catalog of data associated with raw reads
+driver: pore_c.catalogs.RawReadCatalog
+metadata:
+  summary_stats:
+    all:
+      num_sequences: 1471592
+      total_bases: 5252055823
+      mean: 3568.9619289857515
+      min: 93
+      max: 80400
+      N50: 6898
+      Q25: 848.0
+      Q50: 1925.0
+      Q75: 4363.0
+    pass:
+      num_sequences: 1471592
+      total_bases: 5252055823
+      mean: 3568.9619289857515
+      min: 93
+      max: 80400
+      N50: 6898
+      Q25: 848.0
+      Q50: 1925.0
+      Q75: 4363.0
+    fail: {}
+sources:
+  pass_fastq:
+    driver: pore_c.datasources.Fastq
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_run01.rd.batch.fq.gz'
+  fail_fastq:
+    driver: pore_c.datasources.Fastq
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_run01.rd.fail.fq.gz'
+  read_metadata:
+    driver: parquet
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_run01.rd.read_metadata.parquet'
+  summary:
+    driver: csv
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_run01.rd.summary.csv'

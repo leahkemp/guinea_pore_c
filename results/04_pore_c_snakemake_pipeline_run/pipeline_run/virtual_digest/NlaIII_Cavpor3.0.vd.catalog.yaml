@@ -1,0 +1,16 @@
+name: pore_c_virtual_digest
+description: An intake catalog file for a virtual digest of a reference genome
+driver: pore_c.catalogs.VirtualDigestCatalog
+metadata:
+  digest_type: enzyme
+  digest_param: NlaIII
+  num_fragments: 12278772
+sources:
+  fragments:
+    driver: parquet
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_Cavpor3.0.vd.fragments.parquet'
+  digest_stats:
+    driver: csv
+    args:
+      urlpath: '{{ CATALOG_DIR }}/NlaIII_Cavpor3.0.vd.digest_stats.csv'

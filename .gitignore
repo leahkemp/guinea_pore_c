@@ -9,17 +9,6 @@ results/04_pore_c_snakemake_pipeline_run/reference_genome/
 
 results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 
-results/04_pore_c_snakemake_pipeline_run/pipeline_run/
-
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/align_table/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/basecall/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/benchmarks/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/contacts/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/mapping/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/refgenome/
-results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/virtual_digest/
-
-
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/basecall/*.fq.gz
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/basecall/*.parquet
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet

@@ -1,7 +1,7 @@
 # 05 - Look at outputs
 
 Created: 2022/08/10 15:30:51
-Last modified: 2022/08/19 12:36:10
+Last modified: 2022/08/19 13:15:34
 
 - **Aim:** This document documents/describes looking at the outputs of the analyses for this project
 - **Prerequisite software:** [conda](https://docs.conda.io/en/latest/) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/index.html) v0.24.0, [GNU coreutils](https://www.gnu.org/software/coreutils/)
@@ -26,7 +26,7 @@ Have a look at one of the parquet files
 
 ```bash
 parq \
-./results/04_pore_c_snakemake_pipeline_run/pipeline_run/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet \
+./results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet/part.0.parquet \
 --head 10
 ```
 
@@ -34,28 +34,28 @@ parq \
 
 ```bash
                               read_name  read_length  read_idx  \
-0  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-1  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-2  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-3  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-4  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-5  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-6  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-7  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-8  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
-9  00057803-e757-4619-ada6-3320e84826b4         7550      1603   
+0  0006c00e-cf1c-4536-8604-bf27c3bc89da         1093     36062   
+1  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+2  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+3  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+4  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+5  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+6  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+7  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+8  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
+9  0008dfc0-cd75-49d4-ba5c-51f8dfffac9b         2482      2776   
 
    contact_is_direct  contact_is_cis  contact_read_distance  \
-0               True           False                   -129   
-1              False           False                   3293   
-2              False           False                   2951   
-3              False           False                   2328   
-4              False           False                   1906   
-5              False           False                   1667   
-6              False           False                   1188   
-7              False           False                    841   
-8               True           False                     -5   
-9              False           False                   3655   
+0               True           False                     -5   
+1               True           False                     -5   
+2              False           False                     85   
+3              False           False                    358   
+4              False           False                    272   
+5               True           False                     -1   
+6              False           False                   1435   
+7              False           False                   1349   
+8              False           False                   1274   
+9               True           False                     -2   
 
    contact_genome_distance  contact_fragment_adjacent  \
 0                        0                      False   
@@ -70,112 +70,112 @@ parq \
 9                        0                      False   
 
    contact_fragment_distance haplotype_pair_type  align1_align_idx  \
-0                          0               trans             10020   
-1                          0               trans             10032   
-2                          0               trans             10029   
-3                          0               trans             10026   
-4                          0               trans             10027   
-5                          0               trans             10027   
-6                          0               trans             10027   
-7                          0               trans             10018   
-8                          0               trans             10024   
-9                          0               trans             10032   
+0                          0               trans            200242   
+1                          0               trans             16301   
+2                          0               trans             16299   
+3                          0               trans             16295   
+4                          0               trans             16301   
+5                          0               trans             16301   
+6                          0               trans             16296   
+7                          0               trans             16296   
+8                          0               trans             16296   
+9                          0               trans             16296   
 
   align1_chrom  align1_start  align1_end  align1_strand  \
-0  NT_176074.1        146279      147003          False   
-1  NT_176404.1      20647990    20648194          False   
-2  NT_176408.1       3438104     3438334          False   
-3  NT_176074.1        157617      158078           True   
-4  NT_176412.1       9415987     9416362           True   
-5  NT_176412.1       9415987     9416362           True   
-6  NT_176412.1       9415987     9416362           True   
-7  NT_176410.1      12168949    12169721          False   
-8  NT_176410.1      12013195    12013710           True   
-9  NT_176404.1      20647990    20648194          False   
+0  NT_176234.1        537358      537801          False   
+1  NT_176159.1        533789      533881           True   
+2  NT_176392.1      22111404    22111569           True   
+3  NT_176359.1       6562540     6563624           True   
+4  NT_176159.1        533789      533881           True   
+5  NT_176159.1        533789      533881           True   
+6  NT_176073.1        303436      304137           True   
+7  NT_176073.1        303436      304137           True   
+8  NT_176073.1        303436      304137           True   
+9  NT_176073.1        303436      304137           True   
 
    align1_mapping_quality  align1_align_score  align1_align_base_qscore  \
-0                      16                 666                        18   
-1                      37                 175                        15   
-2                      40                 227                        17   
-3                       2                 419                        19   
-4                      45                 340                        19   
-5                      45                 340                        19   
-6                      45                 340                        19   
-7                      51                 721                        18   
-8                      48                 487                        22   
-9                      37                 175                        15   
+0                      24                 418                        17   
+1                       9                  69                        14   
+2                      36                 147                        15   
+3                      53                 937                        15   
+4                       9                  69                        14   
+5                       9                  69                        14   
+6                      49                 547                        14   
+7                      49                 547                        14   
+8                      49                 547                        14   
+9                      49                 547                        14   
 
    align1_phase_set  align1_phase_qual  align1_haplotype  align1_fragment_id  \
-0                 0                  0                -1              544854   
-1                 0                  0                -1             8061789   
-2                 0                  0                -1             8797384   
-3                 0                  0                -1              544901   
-4                 0                  0                -1             9793050   
-5                 0                  0                -1             9793050   
-6                 0                  0                -1             9793050   
-7                 0                  0                -1             9282789   
-8                 0                  0                -1             9282123   
-9                 0                  0                -1             8061789   
+0                 0                  0                -1             1077061   
+1                 0                  0                -1              752524   
+2                 0                  0                -1             6256425   
+3                 0                  0                -1             3610357   
+4                 0                  0                -1              752524   
+5                 0                  0                -1              752524   
+6                 0                  0                -1              543973   
+7                 0                  0                -1              543973   
+8                 0                  0                -1              543973   
+9                 0                  0                -1              543973   
 
    align1_fragment_start  align1_fragment_end  align2_align_idx align2_chrom  \
-0                 146184               147002             10023  NT_176414.1   
-1               20647995             20648198             10027  NT_176412.1   
-2                3438108              3438334             10027  NT_176412.1   
-3                 157622               158077             10027  NT_176412.1   
-4                9415992              9416361             10033  NT_176414.1   
-5                9415992              9416361             10031  NT_176414.1   
-6                9415992              9416361             10025  NT_176414.1   
-7               12168953             12169723             10027  NT_176412.1   
-8               12013199             12013710             10027  NT_176412.1   
-9               20647995             20648198             10030  NT_176414.1   
+0                 537549               537805            200241  NT_176383.1   
+1                 533576               533881             16299  NT_176392.1   
+2               22111409             22111569             16300  NT_176397.1   
+3                6562544              6563365             16299  NT_176392.1   
+4                 533576               533881             16295  NT_176359.1   
+5                 533576               533881             16300  NT_176397.1   
+6                 303522               303754             16299  NT_176392.1   
+7                 303522               303754             16301  NT_176159.1   
+8                 303522               303754             16300  NT_176397.1   
+9                 303522               303754             16295  NT_176359.1   
 
    align2_start  align2_end  align2_strand  align2_mapping_quality  \
-0      19604514    19605104           True                      48   
-1       9415987     9416362           True                      45   
-2       9415987     9416362           True                      45   
-3       9415987     9416362           True                      45   
-4      32602932    32603027           True                      23   
-5      32655950    32656151           True                      38   
-6      49966200    49966682           True                      47   
-7       9415987     9416362           True                      45   
-8       9415987     9416362           True                      45   
-9      33288024    33288291           True                      39   
+0      12375757    12376372          False                      49   
+1      22111404    22111569           True                      36   
+2       4834611     4834687           True                      22   
+3      22111404    22111569           True                      36   
+4       6562540     6563624           True                      53   
+5       4834611     4834687           True                      22   
+6      22111404    22111569           True                      36   
+7        533789      533881           True                       9   
+8       4834611     4834687           True                      22   
+9       6562540     6563624           True                      53   
 
    align2_align_score  align2_align_base_qscore  align2_phase_set  \
-0                 535                        16                 0   
-1                 340                        19                 0   
-2                 340                        19                 0   
-3                 340                        19                 0   
-4                  91                        16                 0   
-5                 189                        23                 0   
-6                 460                        20                 0   
-7                 340                        19                 0   
-8                 340                        19                 0   
-9                 213                        14                 0   
+0                 529                        15                 0   
+1                 147                        15                 0   
+2                  76                        17                 0   
+3                 147                        15                 0   
+4                 937                        15                 0   
+5                  76                        17                 0   
+6                 147                        15                 0   
+7                  69                        14                 0   
+8                  76                        17                 0   
+9                 937                        15                 0   
 
    align2_haplotype  align2_fragment_id  align2_fragment_start  \
-0                -1            10381168               19604514   
-1                -1             9793050                9415992   
-2                -1             9793050                9415992   
-3                -1             9793050                9415992   
-4                -1            10440595               32602918   
-5                -1            10440817               32655954   
-6                -1            10513473               49966205   
-7                -1             9793050                9415992   
-8                -1             9793050                9415992   
-9                -1            10443370               33288030   
+0                -1             5217722               12376079   
+1                -1             6256425               22111409   
+2                -1             6836516                4834615   
+3                -1             6256425               22111409   
+4                -1             3610357                6562544   
+5                -1             6836516                4834615   
+6                -1             6256425               22111409   
+7                -1              752524                 533576   
+8                -1             6836516                4834615   
+9                -1             3610357                6562544   
 
    align2_fragment_end  
-0             19605104  
-1              9416361  
-2              9416361  
-3              9416361  
-4             32603027  
-5             32656151  
-6             49966682  
-7              9416361  
-8              9416361  
-9             33288246 
+0             12376371  
+1             22111569  
+2              4834687  
+3             22111569  
+4              6563365  
+5              4834687  
+6             22111569  
+7               533881  
+8              4834687  
+9              6563365 
 ```
 
 </details>
@@ -185,7 +185,7 @@ Get schema information
 
 ```bash
 parq \
-./results/04_pore_c_snakemake_pipeline_run/pipeline_run/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet \
+./results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet/part.0.parquet \
 --schema
 ```
 
@@ -194,7 +194,7 @@ parq \
 ```bash
 
  # Schema 
- <pyarrow._parquet.ParquetSchema object at 0x7f5b31244940>
+ <pyarrow._parquet.ParquetSchema object at 0x7fbcc74c0600>
 required group field_id=-1 schema {
   optional binary field_id=-1 read_name (String);
   optional int32 field_id=-1 read_length (Int(bitWidth=32, isSigned=false));
@@ -244,14 +244,14 @@ Get total rows count
 
 ```bash
 parq \
-./results/04_pore_c_snakemake_pipeline_run/pipeline_run/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet \
+./results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet/part.0.parquet \
 --count
 ```
 
 <details><summary markdown="span">My output (click to expand)</summary>
 
 ```bash
-778296
+617177
 ```
 
 </details>

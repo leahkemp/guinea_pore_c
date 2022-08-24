@@ -20,7 +20,8 @@ This relates to the guinea pore-c project undertaken by the human genomics group
 - [03 - Initial QC](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/03_initial_qc.md)
 - [04 - Pore-c snakemake pipeline run](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/04_pore_c_snakemake_pipeline_run.md)
 - [05 - Look at outputs](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/05_look_at_outputs.md)
-- [06 - Cleanup](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/06_cleanup.md)
+- [06 - Data visualisation](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/06_data_visualisation.md)
+- [07 - Cleanup](https://github.com/leahkemp/guinea_pore_c/blob/main/docs/analysis_docs/07_cleanup.md)
 
 ## Access
 

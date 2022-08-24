@@ -7,6 +7,8 @@
 
 ## Remove unnecessary files before backup
 
+*Work in progress*
+
 ```bash
 rm -rf ./config/
 

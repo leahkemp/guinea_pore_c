@@ -1,0 +1,13 @@
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.Float64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.UInt64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2747: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2747: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2747: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  res = method(*args, **kwargs)
+2022-08-23 22:27:21,089 - pore_c - INFO - Wrote contacts to results/juicebox/NlaIII_run01_Cavpor3.0_unphased.mnd.txt

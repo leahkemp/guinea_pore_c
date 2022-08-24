@@ -1,0 +1,642 @@
+/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/pipeline_run/
+├── [4.5K]  align_table
+│   ├── [9.7M]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.6M]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.7M]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.9M]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.7M]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.9M]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [9.8M]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 16M]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 18M]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 18M]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 18M]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [ 10M]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet
+│   ├── [ 17M]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet
+│   ├── [4.5M]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet
+│   └── [7.4M]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet
+├── [  59]  assembly
+│   └── [3.0G]  NlaIII_run01_Cavpor3.0_unphased.salsa.bed
+├── [1.5K]  basecall
+│   ├── [149M]  NlaIII_run01.rd.batch1.fq.gz
+│   ├── [152M]  NlaIII_run01.rd.batch2.fq.gz
+│   ├── [154M]  NlaIII_run01.rd.batch3.fq.gz
+│   ├── [153M]  NlaIII_run01.rd.batch4.fq.gz
+│   ├── [157M]  NlaIII_run01.rd.batch5.fq.gz
+│   ├── [151M]  NlaIII_run01.rd.batch6.fq.gz
+│   ├── [145M]  NlaIII_run01.rd.batch7.fq.gz
+│   ├── [148M]  NlaIII_run01.rd.batch8.fq.gz
+│   ├── [153M]  NlaIII_run01.rd.batch9.fq.gz
+│   ├── [150M]  NlaIII_run01.rd.batch10.fq.gz
+│   ├── [151M]  NlaIII_run01.rd.batch11.fq.gz
+│   ├── [150M]  NlaIII_run01.rd.batch12.fq.gz
+│   ├── [152M]  NlaIII_run01.rd.batch13.fq.gz
+│   ├── [175M]  NlaIII_run01.rd.batch14.fq.gz
+│   ├── [172M]  NlaIII_run01.rd.batch15.fq.gz
+│   ├── [168M]  NlaIII_run01.rd.batch16.fq.gz
+│   ├── [171M]  NlaIII_run01.rd.batch17.fq.gz
+│   ├── [166M]  NlaIII_run01.rd.batch18.fq.gz
+│   ├── [175M]  NlaIII_run01.rd.batch19.fq.gz
+│   ├── [175M]  NlaIII_run01.rd.batch20.fq.gz
+│   ├── [173M]  NlaIII_run01.rd.batch21.fq.gz
+│   ├── [170M]  NlaIII_run01.rd.batch22.fq.gz
+│   ├── [171M]  NlaIII_run01.rd.batch23.fq.gz
+│   ├── [171M]  NlaIII_run01.rd.batch24.fq.gz
+│   ├── [168M]  NlaIII_run01.rd.batch25.fq.gz
+│   ├── [169M]  NlaIII_run01.rd.batch26.fq.gz
+│   ├── [167M]  NlaIII_run01.rd.batch27.fq.gz
+│   ├── [163M]  NlaIII_run01.rd.batch28.fq.gz
+│   ├── [167M]  NlaIII_run01.rd.batch29.fq.gz
+│   ├── [ 72M]  NlaIII_run01.rd.batch30.fq.gz
+│   ├── [1.0K]  NlaIII_run01.rd.catalog.yaml
+│   ├── [ 60M]  NlaIII_run01.rd.read_metadata.parquet
+│   └── [ 220]  NlaIII_run01.rd.summary.csv
+├── [  25]  benchmarks
+│   └── [ 297]  results
+│       ├── [5.1K]  align_table
+│       │   ├── [ 124]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 129]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       │   ├── [ 123]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+│       │   └── [ 128]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
+│       ├── [  69]  assembly
+│       │   └── [ 133]  NlaIII_run01_Cavpor3.0_unphased.salsa.bed.bench.txt
+│       ├── [  56]  basecall
+│       │   └── [ 133]  NlaIII_run01.rd.catalog.yaml.bench.txt
+│       ├── [2.5K]  contacts
+│       │   ├── [ 128]  NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   ├── [ 128]  NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       │   └── [ 127]  NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       ├── [  67]  juicebox
+│       │   └── [ 133]  NlaIII_run01_Cavpor3.0_unphased.mnd.txt.bench.txt
+│       ├── [4.6K]  mapping
+│       │   ├── [ 137]  NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 134]  NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 135]  NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 118]  NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 134]  NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 138]  NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 134]  NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 118]  NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 136]  NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 119]  NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 137]  NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   ├── [ 118]  NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       │   ├── [ 133]  NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.bench.txt
+│       │   └── [ 119]  NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+│       ├── [ 143]  matrix
+│       │   ├── [ 132]  NlaIII_run01_Cavpor3.0_unphased.matrix.cool.bench.txt
+│       │   └── [ 132]  NlaIII_run01_Cavpor3.0_unphased.matrix.mcool.bench.txt
+│       ├── [ 155]  merged_contacts
+│       │   ├── [ 131]  NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet.bench.txt
+│       │   └── [ 132]  NlaIII_run01_Cavpor3.0_unphased.contacts.parquet.bench.txt
+│       ├── [ 228]  pairs
+│       │   ├── [ 131]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.bench.txt
+│       │   ├── [ 124]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2.bench.txt
+│       │   └── [ 133]  NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs.bench.txt
+│       ├── [ 100]  refgenome
+│       │   ├── [ 125]  Cavpor3.0.rg.catalog.yaml.bench.txt
+│       │   └── [ 132]  Cavpor3.0.rg.fa.bwt.bench.txt
+│       └── [  60]  virtual_digest
+│           └── [ 132]  NlaIII_Cavpor3.0.vd.catalog.yaml.bench.txt
+├── [2.2K]  contacts
+│   ├── [ 29M]  NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 31M]  NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 28M]  NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 28M]  NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 29M]  NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 30M]  NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 35M]  NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 34M]  NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 34M]  NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 36M]  NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 35M]  NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 35M]  NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 34M]  NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 34M]  NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 34M]  NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 32M]  NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet
+│   ├── [ 33M]  NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet
+│   └── [ 12M]  NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet
+├── [ 132]  juicebox
+│   ├── [ 97M]  NlaIII_Cavpor3.0.hicRef
+│   ├── [4.5G]  NlaIII_run01_Cavpor3.0_unphased.mnd.txt
+│   └── [ 34M]  juicer_tools.jar
+├── [  25]  logs
+│   └── [ 297]  results
+│       ├── [4.7K]  align_table
+│       │   ├── [1.7K]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   ├── [2.0K]  NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       │   ├── [1.7K]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet.log
+│       │   └── [2.0K]  NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet.log
+│       ├── [  63]  assembly
+│       │   └── [7.8K]  NlaIII_run01_Cavpor3.0_unphased.salsa.bed.log
+│       ├── [  50]  basecall
+│       │   └── [ 17K]  NlaIII_run01.rd.catalog.yaml.log
+│       ├── [2.3K]  contacts
+│       │   ├── [1.4K]  NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet.log
+│       │   ├── [1.4K]  NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet.log
+│       │   └── [1.4K]  NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet.log
+│       ├── [ 201]  juicebox
+│       │   ├── [ 124]  NlaIII_Cavpor3.0.hicRef.log
+│       │   ├── [294K]  NlaIII_run01_Cavpor3.0_unphased.hic.log
+│       │   ├── [2.6K]  NlaIII_run01_Cavpor3.0_unphased.mnd.txt.log
+│       │   └── [ 53K]  juicer_tools.jar.log
+│       ├── [4.2K]  mapping
+│       │   ├── [   0]  NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.log
+│       │   ├── [  37]  NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt.log
+│       │   ├── [   0]  NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.log
+│       │   └── [  37]  NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt.log
+│       ├── [ 131]  matrix
+│       │   ├── [2.1M]  NlaIII_run01_Cavpor3.0_unphased.matrix.cool.log
+│       │   └── [9.3K]  NlaIII_run01_Cavpor3.0_unphased.matrix.mcool.log
+│       ├── [ 143]  merged_contacts
+│       │   ├── [ 21K]  NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet.log
+│       │   └── [   0]  NlaIII_run01_Cavpor3.0_unphased.contacts.parquet.log
+│       ├── [ 210]  pairs
+│       │   ├── [   0]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.log
+│       │   ├── [   0]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2.log
+│       │   └── [3.0K]  NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs.log
+│       ├── [  88]  refgenome
+│       │   ├── [1.7K]  Cavpor3.0.rg.catalog.yaml.log
+│       │   └── [5.4K]  Cavpor3.0.rg.fa.bwt.log
+│       └── [  54]  virtual_digest
+│           └── [ 89K]  NlaIII_Cavpor3.0.vd.catalog.yaml.log
+├── [5.9K]  mapping
+│   ├── [1.4G]  NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.4G]  NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.4G]  NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.4G]  NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.4G]  NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.5G]  NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam
+│   ├── [3.3M]  NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.8G]  NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.9G]  NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.9G]  NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.8G]  NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.8G]  NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam
+│   ├── [3.3M]  NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.6G]  NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [1.7G]  NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam
+│   ├── [3.4M]  NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.bai
+│   ├── [  40]  NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt
+│   ├── [739M]  NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam
+│   ├── [2.7M]  NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.bai
+│   └── [  40]  NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt
+├── [ 123]  matrix
+│   ├── [ 43M]  NlaIII_run01_Cavpor3.0_unphased.matrix.cool
+│   └── [234M]  NlaIII_run01_Cavpor3.0_unphased.matrix.mcool
+├── [ 265]  merged_contacts
+│   ├── [2.9K]  NlaIII_run01_Cavpor3.0_unphased.concatemer_summary.csv
+│   ├── [ 61M]  NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet
+│   ├── [1.1K]  NlaIII_run01_Cavpor3.0_unphased.contacts.parquet
+│   │   ├── [ 19K]  _common_metadata
+│   │   ├── [139K]  _metadata
+│   │   ├── [ 37M]  part.0.parquet
+│   │   ├── [ 38M]  part.1.parquet
+│   │   ├── [ 38M]  part.2.parquet
+│   │   ├── [ 37M]  part.3.parquet
+│   │   ├── [ 39M]  part.4.parquet
+│   │   ├── [ 37M]  part.5.parquet
+│   │   ├── [ 35M]  part.6.parquet
+│   │   ├── [ 36M]  part.7.parquet
+│   │   ├── [ 38M]  part.8.parquet
+│   │   ├── [ 37M]  part.9.parquet
+│   │   ├── [ 38M]  part.10.parquet
+│   │   ├── [ 38M]  part.11.parquet
+│   │   ├── [ 37M]  part.12.parquet
+│   │   ├── [ 46M]  part.13.parquet
+│   │   ├── [ 44M]  part.14.parquet
+│   │   ├── [ 43M]  part.15.parquet
+│   │   ├── [ 43M]  part.16.parquet
+│   │   ├── [ 42M]  part.17.parquet
+│   │   ├── [ 47M]  part.18.parquet
+│   │   ├── [ 46M]  part.19.parquet
+│   │   ├── [ 44M]  part.20.parquet
+│   │   ├── [ 44M]  part.21.parquet
+│   │   ├── [ 42M]  part.22.parquet
+│   │   ├── [ 43M]  part.23.parquet
+│   │   ├── [ 41M]  part.24.parquet
+│   │   ├── [ 42M]  part.25.parquet
+│   │   ├── [ 43M]  part.26.parquet
+│   │   ├── [ 41M]  part.27.parquet
+│   │   ├── [ 43M]  part.28.parquet
+│   │   └── [ 15M]  part.29.parquet
+│   └── [2.2K]  NlaIII_run01_Cavpor3.0_unphased.fofn.txt
+├── [ 198]  pairs
+│   ├── [537M]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz
+│   ├── [ 23M]  NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2
+│   └── [2.0G]  NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs
+├── [ 32K]  pipeline_dag.png
+├── [ 28K]  pipeline_rulegraph.png
+├── [ 381]  refgenome
+│   ├── [ 71K]  Cavpor3.0.rg.catalog.yaml
+│   ├── [ 55K]  Cavpor3.0.rg.chromsizes
+│   ├── [2.6G]  Cavpor3.0.rg.fa
+│   ├── [961K]  Cavpor3.0.rg.fa.amb
+│   ├── [467K]  Cavpor3.0.rg.fa.ann
+│   ├── [2.5G]  Cavpor3.0.rg.fa.bwt
+│   ├── [100K]  Cavpor3.0.rg.fa.fai
+│   ├── [649M]  Cavpor3.0.rg.fa.pac
+│   ├── [1.3G]  Cavpor3.0.rg.fa.sa
+│   └── [ 55K]  Cavpor3.0.rg.metadata.csv
+└── [ 159]  virtual_digest
+    ├── [ 472]  NlaIII_Cavpor3.0.vd.catalog.yaml
+    ├── [139K]  NlaIII_Cavpor3.0.vd.digest_stats.csv
+    └── [160M]  NlaIII_Cavpor3.0.vd.fragments.parquet
+
+38 directories, 601 files

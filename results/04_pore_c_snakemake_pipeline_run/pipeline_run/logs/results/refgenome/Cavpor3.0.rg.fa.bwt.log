@@ -1,4 +1,4 @@
-[bwa_index] Pack FASTA... 20.57 sec
+[bwa_index] Pack FASTA... 19.51 sec
 [bwa_index] Construct BWT for the packed sequence...
 [BWTIncCreate] textLength=5446439282, availableWord=395231304
 [BWTIncConstructFromPacked] 10 iterations done. 99999986 characters processed.
@@ -63,10 +63,10 @@
 [BWTIncConstructFromPacked] 600 iterations done. 5419878770 characters processed.
 [BWTIncConstructFromPacked] 610 iterations done. 5442005826 characters processed.
 [bwt_gen] Finished constructing BWT in 613 iterations.
-[bwa_index] 2250.35 seconds elapse.
-[bwa_index] Update BWT... 16.19 sec
-[bwa_index] Pack forward-only FASTA... 12.02 sec
-[bwa_index] Construct SA from BWT and Occ... 778.47 sec
+[bwa_index] 2224.24 seconds elapse.
+[bwa_index] Update BWT... 16.32 sec
+[bwa_index] Pack forward-only FASTA... 11.90 sec
+[bwa_index] Construct SA from BWT and Occ... 773.61 sec
 [main] Version: 0.7.17-r1188
 [main] CMD: bwa index results/refgenome/Cavpor3.0.rg.fa
-[main] Real time: 3088.786 sec; CPU: 3077.612 sec
+[main] Real time: 3056.478 sec; CPU: 3045.583 sec

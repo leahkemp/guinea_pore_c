@@ -1,6 +1,6 @@
-# 06 - Clean up
+# 07 - Clean up
 
-- [06 - Clean up](#06---clean-up)
+- [07 - Clean up](#07---clean-up)
   - [Remove unnecessary files before backup](#remove-unnecessary-files-before-backup)
   - [Move to backup location](#move-to-backup-location)
   - [Output files](#output-files)
@@ -24,13 +24,13 @@ rm -rf ./results/04_pore_c_snakemake_pipeline_run/reference_genome/
 
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/
 
-rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/align_table/
-
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/basecall/
 
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/benchmarks/
 
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/contacts/
+
+rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/juicebox/juicer_tools.jar
 
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/logs/
 

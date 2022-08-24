@@ -70,73 +70,73 @@
   res = method(*args, **kwargs)
 /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2747: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
   res = method(*args, **kwargs)
-2022-08-18 23:15:04,808 - pore_c - INFO - Concatemer summary written to results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemer_summary.csv:
-                                                                                    value
-section          level_0  level_1         level_2                                       
-user_metadata                             run_id                                   run01
-                                          enzyme                                  NlaIII
-                                          biospecimen                              G7624
-                                          refgenome_id                         Cavpor3.0
-                                          phase_set_id                          unphased
-reads                     count           all                                    1471592
-                                          concatemer                             1070116
-                                          fail_filter                             401476
-                          perc            all                                        100
-                                          concatemer                   72.71825342893955
-                                          fail_filter                 27.281746571060456
-read_length               N50             all                                       6898
-                                          concatemer                                7691
-bases                     bases           all                                 5252055823
-                                          concatemer                          4758462472
-                                          fail_filter                          493593351
-                          perc            all                                        100
-                                          concatemer                   90.60190204303547
-                                          fail_filter                  9.398097956964538
-contacts         direct   count           contacts                               4265953
-                                          cis_contacts                            796541
-                                          trans_contacts                         3469412
-                                          short_range_cis_contacts                451766
-                                          long_range_cis_contacts                 344775
-                          perc            contacts                                   100
-                                          cis_contacts                18.672052880095023
-                                          trans_contacts               81.32794711990498
-                                          short_range_cis_contacts    10.590036974153255
-                                          long_range_cis_contacts      8.082015905941766
-                 indirect count           contacts                              15921485
-                                          cis_contacts                           2883261
-                                          trans_contacts                        13038224
-                                          short_range_cis_contacts               1923468
-                                          long_range_cis_contacts                 959793
-                          perc            contacts                                   100
-                                          cis_contacts                18.109246719134553
-                                          trans_contacts               81.89075328086545
-                                          short_range_cis_contacts    12.080958528679957
-                                          long_range_cis_contacts      6.028288190454596
-                 total    count           contacts                              20187438
-                                          cis_contacts                           3679802
-                                          trans_contacts                        16507636
-                                          short_range_cis_contacts               2375234
-                                          long_range_cis_contacts                1304568
-                          perc            contacts                                   100
-                                          cis_contacts                18.228177344742804
-                                          trans_contacts                81.7718226552572
-                                          short_range_cis_contacts    11.765901151002915
-                                          long_range_cis_contacts      6.462276193739889
-density                   contacts_per_gb all                           3843721.14089009
-                                          concatemer                  4242428.7506285915
-concatemer_order          count           2                                       298552
-                                          3                                       216237
-                                          4                                       146493
-                                          5-6                                     174694
-                                          7-11                                    165685
-                                          12-21                                    58729
-                                          22-50                                     9247
-                                          gt_50                                      479
-                          perc            2                           27.899031506864674
-                                          3                           20.206874768716663
-                                          4                           13.689450489479645
-                                          5-6                         16.324772267679393
-                                          7-11                        15.482900919152689
-                                          12-21                        5.488096617562956
-                                          22-50                       0.8641119280526598
-                                          gt_50                     0.044761502491318696
+2022-08-23 21:24:49,824 - pore_c - INFO - Concatemer summary written to results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemer_summary.csv:
+                                                                                   value
+section          level_0  level_1         level_2                                      
+user_metadata                             run_id                                  run01
+                                          enzyme                                 NlaIII
+                                          biospecimen                             G7624
+                                          refgenome_id                        Cavpor3.0
+                                          phase_set_id                         unphased
+reads                     count           all                                   1471592
+                                          concatemer                            1070120
+                                          fail_filter                            401472
+                          perc            all                                       100
+                                          concatemer                  72.71852524340986
+                                          fail_filter                27.281474756590143
+read_length               N50             all                                      6898
+                                          concatemer                               7691
+bases                     bases           all                                5252055823
+                                          concatemer                         4758473154
+                                          fail_filter                         493582669
+                          perc            all                                       100
+                                          concatemer                  90.60210543005876
+                                          fail_filter                 9.397894569941245
+contacts         direct   count           contacts                              4265951
+                                          cis_contacts                           796546
+                                          trans_contacts                        3469405
+                                          short_range_cis_contacts               451770
+                                          long_range_cis_contacts                344776
+                          perc            contacts                                  100
+                                          cis_contacts               18.672178841247824
+                                          trans_contacts              81.32782115875217
+                                          short_range_cis_contacts   10.590135704793608
+                                          long_range_cis_contacts     8.082043136454216
+                 indirect count           contacts                             15921477
+                                          cis_contacts                          2883260
+                                          trans_contacts                       13038217
+                                          short_range_cis_contacts              1923467
+                                          long_range_cis_contacts                959793
+                          perc            contacts                                  100
+                                          cis_contacts                18.10924953759001
+                                          trans_contacts              81.89075046240998
+                                          short_range_cis_contacts   12.080958318125887
+                                          long_range_cis_contacts    6.0282912194641245
+                 total    count           contacts                             20187428
+                                          cis_contacts                          3679806
+                                          trans_contacts                       16507622
+                                          short_range_cis_contacts              2375237
+                                          long_range_cis_contacts               1304569
+                          perc            contacts                                  100
+                                          cis_contacts               18.228206188524858
+                                          trans_contacts              81.77179381147515
+                                          short_range_cis_contacts   11.765921840067987
+                                          long_range_cis_contacts     6.462284348456872
+density                   contacts_per_gb all                          3843719.23687377
+                                          concatemer                  4242417.125550101
+concatemer_order          count           2                                      298557
+                                          3                                      216233
+                                          4                                      146500
+                                          5-6                                    174692
+                                          7-11                                   165683
+                                          12-21                                   58728
+                                          22-50                                    9248
+                                          gt_50                                     479
+                          perc            2                          27.899394460434344
+                                          3                          20.206425447613352
+                                          4                          13.690053451949314
+                                          5-6                        16.324524352409075
+                                          7-11                        15.48265615071207
+                                          12-21                       5.487982656150712
+                                          22-50                      0.8642021455537697
+                                          gt_50                     0.04476133517736329

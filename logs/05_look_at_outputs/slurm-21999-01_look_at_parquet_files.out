@@ -46,11 +46,10 @@ Transaction
   + ncurses                 6.3  h27087fc_1          conda-forge/linux-64     Cached
   + openssl               3.0.5  h166bdaf_1          conda-forge/linux-64     Cached
   + pip                  22.2.2  pyhd8ed1ab_0        conda-forge/noarch       Cached
-  + python               3.10.5  ha86cf86_0_cpython  conda-forge/linux-64     Cached
+  + python               3.10.6  ha86cf86_0_cpython  conda-forge/linux-64       30MB
   + python_abi             3.10  2_cp310             conda-forge/linux-64     Cached
   + readline              8.1.2  h0f457ee_0          conda-forge/linux-64     Cached
-  + setuptools           65.0.2  py310hff52083_0     conda-forge/linux-64     Cached
-  + sqlite               3.39.2  h4ff8645_1          conda-forge/linux-64     Cached
+  + setuptools           65.2.0  py310hff52083_0     conda-forge/linux-64     Cached
   + tk                   8.6.12  h27826a3_0          conda-forge/linux-64     Cached
   + tzdata                2022c  h191b570_0          conda-forge/noarch       Cached
   + wheel                0.37.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
@@ -58,9 +57,9 @@ Transaction
 
   Summary:
 
-  Install: 24 packages
+  Install: 23 packages
 
-  Total download: 0 B
+  Total download: 30MB
 
 ──────────────────────────────────────────────────────────────────────────────────────
 
@@ -73,14 +72,14 @@ Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
 Installing pip dependencies: ...working... Ran pip subprocess with arguments:
-['/home/lkemp/miniconda3/envs/parquet-cli/bin/python', '-m', 'pip', 'install', '-U', '-r', '/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/scripts/envs/condaenv.wuezankx.requirements.txt']
+['/home/lkemp/miniconda3/envs/parquet-cli/bin/python', '-m', 'pip', 'install', '-U', '-r', '/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/scripts/envs/condaenv.bluxfi8t.requirements.txt']
 Pip subprocess output:
 Collecting parquet-cli
   Using cached parquet_cli-1.3-py2.py3-none-any.whl (3.6 kB)
-Collecting pandas>=0.22.0
-  Using cached pandas-1.4.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
 Collecting pyarrow>=0.9.0.post1
   Using cached pyarrow-9.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (35.3 MB)
+Collecting pandas>=0.22.0
+  Using cached pandas-1.4.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
 Collecting python-dateutil>=2.8.1
   Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
 Collecting numpy>=1.21.0

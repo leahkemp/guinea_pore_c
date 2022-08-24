@@ -1,0 +1,143 @@
+INFO:cooler.cli.zoomify:Recursively aggregating "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool"
+INFO:cooler.cli.zoomify:Writing to "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool"
+INFO:cooler.reduce:Copying base matrices and producing 13 new zoom levels.
+INFO:cooler.reduce:Bin size: 1000
+INFO:cooler.reduce:Aggregating from 1000 to 2000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/2000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000013
+INFO:cooler.reduce:10000013 14746014
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 1000 to 5000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/5000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000056
+INFO:cooler.reduce:10000056 14746014
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 5000 to 10000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/10000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000060
+INFO:cooler.reduce:10000060 13997387
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 5000 to 25000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/25000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000077
+INFO:cooler.reduce:10000077 13997387
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 25000 to 50000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/50000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000140
+INFO:cooler.reduce:10000140 12742926
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 50000 to 100000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/100000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000010
+INFO:cooler.reduce:10000010 12029146
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 50000 to 250000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/250000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 10000657
+INFO:cooler.reduce:10000657 12029146
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 250000 to 500000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/500000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 9619950
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 500000 to 1000000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/1000000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 7320447
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 500000 to 2500000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/2500000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 7320447
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 2500000 to 5000000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/5000000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 1277991
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.reduce:Aggregating from 5000000 to 10000000.
+WARNING:py.warnings:/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e/lib/python3.10/site-packages/cooler/util.py:733: FutureWarning: is_categorical is deprecated and will be removed in a future version. Use is_categorical_dtype instead.
+  is_cat = pd.api.types.is_categorical(bins["chrom"])
+
+INFO:cooler.create:Creating cooler at "results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool::/resolutions/10000000"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.reduce:0 704976
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info

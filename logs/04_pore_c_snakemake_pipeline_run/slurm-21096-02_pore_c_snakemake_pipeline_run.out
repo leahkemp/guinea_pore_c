@@ -2,7 +2,7 @@
 Getting pore-c snakemake pipeline
 
 Cloning into '/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake'...
-Filtering content:  33% (2/6)   Filtering content:  50% (3/6)   Filtering content:  66% (4/6)   Filtering content:  83% (5/6)   Filtering content:  83% (5/6), 22.53 MiB | 24.97 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 24.97 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 11.11 MiB/s, done.
+Filtering content:  33% (2/6)   Filtering content:  50% (3/6)   Filtering content:  66% (4/6)   Filtering content:  83% (5/6)   Filtering content:  83% (5/6), 22.53 MiB | 19.72 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 19.72 MiB/s   Filtering content: 100% (6/6), 22.53 MiB | 9.68 MiB/s, done.
 Note: checking out 'tags/0.3.0'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -62,8 +62,8 @@ Transaction
   + backports                             1.0  py_2                 conda-forge/noarch       Cached
   + backports.functools_lru_cache       1.6.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + bcrypt                              3.2.2  py38h0a891b7_0       conda-forge/linux-64     Cached
-  + boto3                             1.24.53  pyhd8ed1ab_0         conda-forge/noarch         74kB
-  + botocore                          1.27.53  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + boto3                             1.24.56  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + botocore                          1.27.56  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + brotlipy                            0.7.0  py38h0a891b7_1004    conda-forge/linux-64     Cached
   + bzip2                               1.0.8  h7f98852_4           conda-forge/linux-64     Cached
   + c-ares                             1.18.1  h7f98852_0           conda-forge/linux-64     Cached
@@ -72,7 +72,7 @@ Transaction
   + cairo                              1.16.0  ha61ee94_1012        conda-forge/linux-64     Cached
   + certifi                         2022.6.15  py38h578d9bd_0       conda-forge/linux-64     Cached
   + cffi                               1.15.1  py38h4a40e3a_0       conda-forge/linux-64     Cached
-  + charset-normalizer                  2.1.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + charset-normalizer                  2.1.1  pyhd8ed1ab_0         conda-forge/noarch         36kB
   + configargparse                      1.5.3  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + crc32c                          2.2.post0  py38h497a2fe_1       conda-forge/linux-64     Cached
   + cryptography                       37.0.4  py38h2b5fc30_0       conda-forge/linux-64     Cached
@@ -102,7 +102,7 @@ Transaction
   + gitpython                          3.1.27  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + google-api-core                     2.8.2  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + google-api-python-client           2.57.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + google-auth                        2.10.0  pyh6c4a22f_0         conda-forge/noarch       Cached
+  + google-auth                        2.11.0  pyh6c4a22f_0         conda-forge/noarch       Cached
   + google-auth-httplib2                0.1.0  pyhd8ed1ab_1         conda-forge/noarch       Cached
   + google-cloud-core                   2.3.2  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + google-cloud-storage                2.4.0  pyh6c4a22f_0         conda-forge/noarch       Cached
@@ -110,7 +110,7 @@ Transaction
   + google-resumable-media              2.3.3  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + googleapis-common-protos           1.56.4  py38h578d9bd_0       conda-forge/linux-64     Cached
   + graphite2                          1.3.13  h58526e2_1001        conda-forge/linux-64     Cached
-  + graphviz                            5.0.0  h5abf519_0           conda-forge/linux-64     Cached
+  + graphviz                            5.0.1  h5abf519_0           conda-forge/linux-64     Cached
   + grpc-cpp                           1.48.0  hbad87ad_3           conda-forge/linux-64     Cached
   + grpcio                             1.48.0  py38h5b6373e_3       conda-forge/linux-64     Cached
   + gtk2                              2.24.33  h90689f9_2           conda-forge/linux-64     Cached
@@ -119,14 +119,14 @@ Transaction
   + httplib2                           0.20.4  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + icu                                  70.1  h27087fc_0           conda-forge/linux-64     Cached
   + idna                                  3.3  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + imagemagick                      7.1.0_45  pl5321hae1b4c2_1     conda-forge/linux-64     Cached
+  + imagemagick                      7.1.0_46  pl5321hae1b4c2_0     conda-forge/linux-64     Cached
   + importlib-metadata                 4.11.4  py38h578d9bd_0       conda-forge/linux-64     Cached
   + importlib_resources                 5.9.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + jbig                                  2.1  h7f98852_2003        conda-forge/linux-64     Cached
   + jinja2                              3.1.2  pyhd8ed1ab_1         conda-forge/noarch       Cached
   + jmespath                            1.0.1  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + jpeg                                   9e  h166bdaf_2           conda-forge/linux-64     Cached
-  + jsonschema                          4.9.1  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + jsonschema                         4.14.0  pyhd8ed1ab_0         conda-forge/noarch         66kB
   + jupyter_core                       4.11.1  py38h578d9bd_0       conda-forge/linux-64     Cached
   + ld_impl_linux-64                   2.36.1  hea4e1c9_2           conda-forge/linux-64     Cached
   + lerc                                4.0.0  h27087fc_0           conda-forge/linux-64     Cached
@@ -145,7 +145,7 @@ Transaction
   + libiconv                             1.16  h516909a_0           conda-forge/linux-64     Cached
   + liblapack                           3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
   + libnsl                              2.0.0  h7f98852_0           conda-forge/linux-64     Cached
-  + libopenblas                        0.3.21  pthreads_h78a6416_1  conda-forge/linux-64     Cached
+  + libopenblas                        0.3.21  pthreads_h78a6416_2  conda-forge/linux-64     Cached
   + libpng                             1.6.37  h753d276_4           conda-forge/linux-64     Cached
   + libprotobuf                        3.20.1  h6239696_1           conda-forge/linux-64     Cached
   + librsvg                            2.54.4  h7abd40a_0           conda-forge/linux-64     Cached
@@ -164,7 +164,7 @@ Transaction
   + multidict                           6.0.2  py38h0a891b7_1       conda-forge/linux-64     Cached
   + nbformat                            5.4.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + ncurses                               6.3  h27087fc_1           conda-forge/linux-64     Cached
-  + networkx                            2.8.5  pyhd8ed1ab_0         conda-forge/noarch       Cached
+  + networkx                            2.8.6  pyhd8ed1ab_0         conda-forge/noarch          2MB
   + numpy                              1.23.2  py38h3a7f9d9_0       conda-forge/linux-64     Cached
   + oauth2client                        4.1.3  py_0                 conda-forge/noarch       Cached
   + openjpeg                            2.5.0  h7d73246_1           conda-forge/linux-64     Cached
@@ -187,7 +187,7 @@ Transaction
   + pyasn1-modules                      0.2.7  py_0                 conda-forge/noarch       Cached
   + pycparser                            2.21  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pygments                           2.13.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
-  + pygraphviz                            1.9  py38ha203ad8_3       conda-forge/linux-64     Cached
+  + pygraphviz                           1.10  py38ha203ad8_0       conda-forge/linux-64     Cached
   + pynacl                              1.5.0  py38h0a891b7_1       conda-forge/linux-64     Cached
   + pyopenssl                          22.0.0  pyhd8ed1ab_0         conda-forge/noarch       Cached
   + pyparsing                           3.0.9  pyhd8ed1ab_0         conda-forge/noarch       Cached
@@ -253,7 +253,7 @@ Transaction
 
   Install: 198 packages
 
-  Total download: 74kB
+  Total download: 2MB
 
 ─────────────────────────────────────────────────────────────────────────────────────────────────────
 
@@ -288,1420 +288,1465 @@ Building DAG of jobs...
 Running pore-c snakemake pipeline
 
 Building DAG of jobs...
+Creating conda environment envs/pairtools.yml...
+Downloading and installing remote packages.
+Environment for envs/pairtools.yml created (location: .snakemake/conda/b304f39e)
+Creating conda environment envs/pairix.yml...
+Downloading and installing remote packages.
+Environment for envs/pairix.yml created (location: .snakemake/conda/d297b3f0)
 Creating conda environment envs/pore_c.yml...
 Downloading and installing remote packages.
 Environment for envs/pore_c.yml created (location: .snakemake/conda/b0c4d2a7)
-Creating conda environment envs/bwa.yml...
+Creating conda environment envs/juicer_tools.yml...
 Downloading and installing remote packages.
-Environment for envs/bwa.yml created (location: .snakemake/conda/88358fe5)
+Environment for envs/juicer_tools.yml created (location: .snakemake/conda/1687814d)
+Creating conda environment envs/cooler.yml...
+Downloading and installing remote packages.
+Environment for envs/cooler.yml created (location: .snakemake/conda/22c38e1e)
 Using shell: /usr/bin/bash
 Provided cores: 24
 Rules claiming more threads will be scaled down.
 Job counts:
 	count	jobs
 	1	add_refgenome
-	1	all
-	1	bwa_index_refgenome
 	1	create_contact_fofn
+	1	create_hic
+	1	create_hicRef
+	1	create_mcool_file
+	1	download_juicer_tools
 	1	import_basecalls
+	1	index_pairs
 	1	merge_contact_files
 	1	summarise_contacts
-	7
+	1	test
+	1	to_cooler
+	1	to_mnd
+	1	to_salsa_bed
+	1	to_sorted_pairs
+	1	to_unsorted_pairs
+	1	virtual_digest
+	17
 
-[Thu Aug 18 14:07:13 2022]
+[Tue Aug 23 12:09:09 2022]
+rule add_refgenome:
+    output: results/refgenome/Cavpor3.0.rg.catalog.yaml, results/refgenome/Cavpor3.0.rg.metadata.csv, results/refgenome/Cavpor3.0.rg.chromsizes, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.fai
+    log: results/logs/results/refgenome/Cavpor3.0.rg.catalog.yaml.log
+    jobid: 12
+    benchmark: results/benchmarks/results/refgenome/Cavpor3.0.rg.catalog.yaml.bench.txt
+    wildcards: refgenome_id=Cavpor3.0
+    threads: 5
+
+
+[Tue Aug 23 12:09:09 2022]
 checkpoint import_basecalls:
     output: results/basecall/NlaIII_run01.rd.catalog.yaml, results/basecall/NlaIII_run01.rd.summary.csv, results/basecall/NlaIII_run01.rd.read_metadata.parquet
     log: results/logs/results/basecall/NlaIII_run01.rd.catalog.yaml.log
-    jobid: 1
+    jobid: 8
     benchmark: results/benchmarks/results/basecall/NlaIII_run01.rd.catalog.yaml.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01
 Downstream jobs will be updated after completion.
 
 
-[Thu Aug 18 14:07:13 2022]
-rule add_refgenome:
-    output: results/refgenome/Cavpor3.0.rg.catalog.yaml, results/refgenome/Cavpor3.0.rg.metadata.csv, results/refgenome/Cavpor3.0.rg.chromsizes, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.fai
-    log: results/logs/results/refgenome/Cavpor3.0.rg.catalog.yaml.log
-    jobid: 4
-    benchmark: results/benchmarks/results/refgenome/Cavpor3.0.rg.catalog.yaml.bench.txt
-    wildcards: refgenome_id=Cavpor3.0
-    threads: 5
+[Tue Aug 23 12:09:09 2022]
+rule download_juicer_tools:
+    output: results/juicebox/juicer_tools.jar
+    log: results/logs/results/juicebox/juicer_tools.jar.log
+    jobid: 13
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 14:07:53 2022]
-Finished job 4.
-1 of 7 steps (14%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/1687814d
+[Tue Aug 23 12:09:50 2022]
+Finished job 13.
+1 of 17 steps (6%) done
+[Tue Aug 23 12:09:52 2022]
+Finished job 12.
+2 of 17 steps (12%) done
 
-[Thu Aug 18 14:07:53 2022]
-rule bwa_index_refgenome:
-    input: results/refgenome/Cavpor3.0.rg.fa
-    output: results/refgenome/Cavpor3.0.rg.fa.bwt
-    log: results/logs/results/refgenome/Cavpor3.0.rg.fa.bwt.log
-    jobid: 2
-    benchmark: results/benchmarks/results/refgenome/Cavpor3.0.rg.fa.bwt.bench.txt
-    wildcards: refgenome_id=Cavpor3.0
-
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
-Updating job 6 (create_contact_fofn).
-Updating job 3 (summarise_contacts).
-Updating job 0 (all).
-Creating conda environment wrappers/whatshap/haplotag/environment.yaml...
-Downloading and installing remote packages.
-Environment for wrappers/whatshap/haplotag/environment.yaml created (location: .snakemake/conda/164ce7af)
-[Thu Aug 18 14:21:48 2022]
-Finished job 1.
-2 of 158 steps (1%) done
-
-[Thu Aug 18 14:21:48 2022]
+[Tue Aug 23 12:09:52 2022]
 rule virtual_digest:
     input: results/refgenome/Cavpor3.0.rg.fa
     output: results/virtual_digest/NlaIII_Cavpor3.0.vd.catalog.yaml, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.digest_stats.csv
     log: results/logs/results/virtual_digest/NlaIII_Cavpor3.0.vd.catalog.yaml.log
-    jobid: 71
+    jobid: 15
     benchmark: results/benchmarks/results/virtual_digest/NlaIII_Cavpor3.0.vd.catalog.yaml.bench.txt
     wildcards: enzyme=NlaIII, refgenome_id=Cavpor3.0
     threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 14:23:20 2022]
-Finished job 71.
-3 of 158 steps (2%) done
-[Thu Aug 18 14:59:24 2022]
-Finished job 2.
-4 of 158 steps (3%) done
+[Tue Aug 23 12:11:20 2022]
+Finished job 15.
+3 of 17 steps (18%) done
 
-[Thu Aug 18 14:59:24 2022]
+[Tue Aug 23 12:11:20 2022]
+rule create_hicRef:
+    input: results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
+    output: results/juicebox/NlaIII_Cavpor3.0.hicRef
+    log: results/logs/results/juicebox/NlaIII_Cavpor3.0.hicRef.log
+    jobid: 11
+    benchmark: results/logs/results/juicebox/NlaIII_Cavpor3.0.hicRef.log
+    wildcards: enzyme=NlaIII, refgenome_id=Cavpor3.0
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 12:11:31 2022]
+Finished job 11.
+4 of 17 steps (24%) done
+Updating job 14 (create_contact_fofn).
+Updating job 1 (summarise_contacts).
+Creating conda environment wrappers/whatshap/haplotag/environment.yaml...
+Downloading and installing remote packages.
+Environment for wrappers/whatshap/haplotag/environment.yaml created (location: .snakemake/conda/164ce7af)
+Creating conda environment envs/bwa.yml...
+Downloading and installing remote packages.
+Environment for envs/bwa.yml created (location: .snakemake/conda/88358fe5)
+[Tue Aug 23 12:31:31 2022]
+Finished job 8.
+5 of 168 steps (3%) done
+
+[Tue Aug 23 12:31:31 2022]
+rule bwa_index_refgenome:
+    input: results/refgenome/Cavpor3.0.rg.fa
+    output: results/refgenome/Cavpor3.0.rg.fa.bwt
+    log: results/logs/results/refgenome/Cavpor3.0.rg.fa.bwt.log
+    jobid: 169
+    benchmark: results/benchmarks/results/refgenome/Cavpor3.0.rg.fa.bwt.bench.txt
+    wildcards: refgenome_id=Cavpor3.0
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
+[Tue Aug 23 13:22:29 2022]
+Finished job 169.
+6 of 168 steps (4%) done
+
+[Tue Aug 23 13:22:29 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch14.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.log
-    jobid: 127
+    jobid: 135
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch14, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 14:59:24 2022]
+[Tue Aug 23 13:22:29 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch20.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.log
-    jobid: 139
+    jobid: 147
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch20, refgenome_id=Cavpor3.0
     threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
-[Thu Aug 18 15:33:32 2022]
-Finished job 139.
-5 of 158 steps (3%) done
+[Tue Aug 23 13:56:51 2022]
+Finished job 147.
+7 of 168 steps (4%) done
 
-[Thu Aug 18 15:33:32 2022]
+[Tue Aug 23 13:56:51 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 140
+    jobid: 148
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch20, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 15:33:32 2022]
+[Tue Aug 23 13:56:51 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch19.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.log
-    jobid: 137
+    jobid: 145
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch19, refgenome_id=Cavpor3.0
     threads: 10
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 15:33:37 2022]
-Finished job 140.
-6 of 158 steps (4%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 13:56:56 2022]
+Finished job 148.
+8 of 168 steps (5%) done
 
-[Thu Aug 18 15:33:37 2022]
+[Tue Aug 23 13:56:56 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch20_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch20_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 90
+    jobid: 98
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch20, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:34:38 2022]
-Finished job 90.
-7 of 158 steps (4%) done
+[Tue Aug 23 13:57:58 2022]
+Finished job 98.
+9 of 168 steps (5%) done
 
-[Thu Aug 18 15:34:38 2022]
+[Tue Aug 23 13:57:58 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 59
+    jobid: 68
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch20, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:36:33 2022]
-Finished job 127.
-8 of 158 steps (5%) done
+[Tue Aug 23 13:59:41 2022]
+Finished job 135.
+10 of 168 steps (6%) done
 
-[Thu Aug 18 15:36:33 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch21.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.log
-    jobid: 141
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 15:36:33 2022]
+[Tue Aug 23 13:59:41 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 128
+    jobid: 136
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch14, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 13:59:41 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch21.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.log
+    jobid: 149
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0
+    threads: 10
+
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 15:36:38 2022]
-Finished job 128.
-9 of 158 steps (6%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 13:59:46 2022]
+Finished job 136.
+11 of 168 steps (7%) done
 
-[Thu Aug 18 15:36:38 2022]
+[Tue Aug 23 13:59:46 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch14_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch14_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 84
+    jobid: 92
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch14, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:37:43 2022]
-Finished job 84.
-10 of 158 steps (6%) done
+[Tue Aug 23 14:00:40 2022]
+Finished job 92.
+12 of 168 steps (7%) done
 
-[Thu Aug 18 15:37:43 2022]
+[Tue Aug 23 14:00:40 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 53
+    jobid: 62
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch14, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:44:32 2022]
-Finished job 59.
-11 of 158 steps (7%) done
+[Tue Aug 23 14:05:47 2022]
+Finished job 68.
+13 of 168 steps (8%) done
 
-[Thu Aug 18 15:44:32 2022]
+[Tue Aug 23 14:05:47 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch20_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 29
+    jobid: 38
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch20, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:46:58 2022]
-Finished job 53.
-12 of 158 steps (8%) done
+[Tue Aug 23 14:08:24 2022]
+Finished job 62.
+14 of 168 steps (8%) done
 
-[Thu Aug 18 15:46:58 2022]
+[Tue Aug 23 14:08:24 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch14_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 23
+    jobid: 32
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch14, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 15:47:39 2022]
-Finished job 29.
-13 of 158 steps (8%) done
-[Thu Aug 18 15:50:12 2022]
-Finished job 23.
-14 of 158 steps (9%) done
-[Thu Aug 18 16:06:12 2022]
-Finished job 137.
-15 of 158 steps (9%) done
+[Tue Aug 23 14:08:53 2022]
+Finished job 38.
+15 of 168 steps (9%) done
+[Tue Aug 23 14:11:27 2022]
+Finished job 32.
+16 of 168 steps (10%) done
+[Tue Aug 23 14:29:28 2022]
+Finished job 145.
+17 of 168 steps (10%) done
 
-[Thu Aug 18 16:06:12 2022]
+[Tue Aug 23 14:29:28 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch15.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.log
-    jobid: 129
+    jobid: 137
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch15, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 16:06:12 2022]
+[Tue Aug 23 14:29:28 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 138
+    jobid: 146
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch19, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 16:06:20 2022]
-Finished job 138.
-16 of 158 steps (10%) done
+[Tue Aug 23 14:29:33 2022]
+Finished job 146.
+18 of 168 steps (11%) done
 
-[Thu Aug 18 16:06:20 2022]
+[Tue Aug 23 14:29:33 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch19_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch19_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 89
+    jobid: 97
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch19, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:07:21 2022]
-Finished job 89.
-17 of 158 steps (11%) done
+[Tue Aug 23 14:30:37 2022]
+Finished job 97.
+19 of 168 steps (11%) done
 
-[Thu Aug 18 16:07:21 2022]
+[Tue Aug 23 14:30:37 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 58
+    jobid: 67
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch19, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:12:45 2022]
-Finished job 141.
-18 of 158 steps (11%) done
+[Tue Aug 23 14:36:19 2022]
+Finished job 149.
+20 of 168 steps (12%) done
 
-[Thu Aug 18 16:12:45 2022]
+[Tue Aug 23 14:36:19 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch24.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.log
-    jobid: 147
+    jobid: 155
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch24, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 16:12:45 2022]
+[Tue Aug 23 14:36:19 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 142
+    jobid: 150
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 16:12:49 2022]
-Finished job 142.
-19 of 158 steps (12%) done
+[Tue Aug 23 14:36:23 2022]
+Finished job 150.
+21 of 168 steps (12%) done
 
-[Thu Aug 18 16:12:49 2022]
+[Tue Aug 23 14:36:23 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch21_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch21_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 91
+    jobid: 99
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:13:53 2022]
-Finished job 91.
-20 of 158 steps (13%) done
+[Tue Aug 23 14:37:22 2022]
+Finished job 99.
+22 of 168 steps (13%) done
 
-[Thu Aug 18 16:13:53 2022]
+[Tue Aug 23 14:37:22 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 60
+    jobid: 69
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:16:07 2022]
-Finished job 58.
-21 of 158 steps (13%) done
+[Tue Aug 23 14:38:32 2022]
+Finished job 67.
+23 of 168 steps (14%) done
 
-[Thu Aug 18 16:16:07 2022]
+[Tue Aug 23 14:38:32 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch19_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 28
+    jobid: 37
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch19, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:20:33 2022]
-Finished job 28.
-22 of 158 steps (14%) done
-[Thu Aug 18 16:23:36 2022]
-Finished job 60.
-23 of 158 steps (15%) done
+[Tue Aug 23 14:42:18 2022]
+Finished job 37.
+24 of 168 steps (14%) done
+[Tue Aug 23 14:45:39 2022]
+Finished job 69.
+25 of 168 steps (15%) done
 
-[Thu Aug 18 16:23:36 2022]
+[Tue Aug 23 14:45:39 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch21_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 30
+    jobid: 39
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch21, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:26:42 2022]
-Finished job 30.
-24 of 158 steps (15%) done
-[Thu Aug 18 16:42:12 2022]
-Finished job 129.
-25 of 158 steps (16%) done
+[Tue Aug 23 14:49:13 2022]
+Finished job 39.
+26 of 168 steps (15%) done
+[Tue Aug 23 15:02:31 2022]
+Finished job 137.
+27 of 168 steps (16%) done
 
-[Thu Aug 18 16:42:12 2022]
+[Tue Aug 23 15:02:31 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 130
+    jobid: 138
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch15, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 16:42:12 2022]
+[Tue Aug 23 15:02:31 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch23.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.log
-    jobid: 145
+    jobid: 153
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0
     threads: 10
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 16:42:16 2022]
-Finished job 130.
-26 of 158 steps (16%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 15:02:38 2022]
+Finished job 138.
+28 of 168 steps (17%) done
 
-[Thu Aug 18 16:42:16 2022]
+[Tue Aug 23 15:02:38 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch15_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch15_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 85
+    jobid: 93
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch15, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:43:14 2022]
-Finished job 85.
-27 of 158 steps (17%) done
+[Tue Aug 23 15:03:44 2022]
+Finished job 93.
+29 of 168 steps (17%) done
 
-[Thu Aug 18 16:43:14 2022]
+[Tue Aug 23 15:03:44 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 54
+    jobid: 63
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch15, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:48:21 2022]
-Finished job 147.
-28 of 158 steps (18%) done
+[Tue Aug 23 15:09:32 2022]
+Finished job 155.
+30 of 168 steps (18%) done
 
-[Thu Aug 18 16:48:21 2022]
+[Tue Aug 23 15:09:32 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 148
+    jobid: 156
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch24, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 16:48:21 2022]
+[Tue Aug 23 15:09:32 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch17.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.log
-    jobid: 133
+    jobid: 141
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch17, refgenome_id=Cavpor3.0
     threads: 10
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 16:48:26 2022]
-Finished job 148.
-29 of 158 steps (18%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 15:09:39 2022]
+Finished job 156.
+31 of 168 steps (18%) done
 
-[Thu Aug 18 16:48:26 2022]
+[Tue Aug 23 15:09:39 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch24_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch24_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 94
+    jobid: 102
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch24, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:49:24 2022]
-Finished job 94.
-30 of 158 steps (19%) done
+[Tue Aug 23 15:10:38 2022]
+Finished job 102.
+32 of 168 steps (19%) done
 
-[Thu Aug 18 16:49:24 2022]
+[Tue Aug 23 15:10:38 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 63
+    jobid: 72
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch24, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:51:38 2022]
-Finished job 54.
-31 of 158 steps (20%) done
+[Tue Aug 23 15:12:58 2022]
+Finished job 63.
+33 of 168 steps (20%) done
 
-[Thu Aug 18 16:51:38 2022]
+[Tue Aug 23 15:12:58 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch15_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 24
+    jobid: 33
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch15, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 16:55:13 2022]
-Finished job 24.
-32 of 158 steps (20%) done
-[Thu Aug 18 16:58:11 2022]
-Finished job 63.
-33 of 158 steps (21%) done
+[Tue Aug 23 15:16:34 2022]
+Finished job 33.
+34 of 168 steps (20%) done
+[Tue Aug 23 15:19:16 2022]
+Finished job 72.
+35 of 168 steps (21%) done
 
-[Thu Aug 18 16:58:11 2022]
+[Tue Aug 23 15:19:16 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch24_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 33
+    jobid: 42
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch24, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:01:44 2022]
-Finished job 33.
-34 of 158 steps (22%) done
-[Thu Aug 18 17:15:59 2022]
-Finished job 145.
-35 of 158 steps (22%) done
+[Tue Aug 23 15:22:46 2022]
+Finished job 42.
+36 of 168 steps (21%) done
+[Tue Aug 23 15:34:33 2022]
+Finished job 153.
+37 of 168 steps (22%) done
 
-[Thu Aug 18 17:15:59 2022]
-rule haplotag:
-    input: results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
-    output: results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt
-    log: results/logs/results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 146
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-[Thu Aug 18 17:15:59 2022]
+[Tue Aug 23 15:34:33 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch22.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.log
-    jobid: 143
+    jobid: 151
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch22, refgenome_id=Cavpor3.0
     threads: 10
 
+
+[Tue Aug 23 15:34:33 2022]
+rule haplotag:
+    input: results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
+    output: results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt
+    log: results/logs/results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.log
+    jobid: 154
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 17:16:05 2022]
-Finished job 146.
-36 of 158 steps (23%) done
+[Tue Aug 23 15:34:38 2022]
+Finished job 154.
+38 of 168 steps (23%) done
 
-[Thu Aug 18 17:16:05 2022]
+[Tue Aug 23 15:34:38 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch23_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch23_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 93
+    jobid: 101
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:16:57 2022]
-Finished job 93.
-37 of 158 steps (23%) done
+[Tue Aug 23 15:35:36 2022]
+Finished job 101.
+39 of 168 steps (23%) done
 
-[Thu Aug 18 17:16:57 2022]
+[Tue Aug 23 15:35:36 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 62
+    jobid: 71
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:20:57 2022]
-Finished job 133.
-38 of 158 steps (24%) done
+[Tue Aug 23 15:39:41 2022]
+Finished job 141.
+40 of 168 steps (24%) done
 
-[Thu Aug 18 17:20:57 2022]
+[Tue Aug 23 15:39:41 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch26.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.log
-    jobid: 151
+    jobid: 159
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 17:20:57 2022]
+[Tue Aug 23 15:39:41 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 134
+    jobid: 142
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch17, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 17:21:06 2022]
-Finished job 134.
-39 of 158 steps (25%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 15:39:52 2022]
+Finished job 142.
+41 of 168 steps (24%) done
 
-[Thu Aug 18 17:21:06 2022]
+[Tue Aug 23 15:39:52 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch17_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch17_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 87
+    jobid: 95
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch17, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:22:14 2022]
-Finished job 87.
-40 of 158 steps (25%) done
+[Tue Aug 23 15:40:55 2022]
+Finished job 95.
+42 of 168 steps (25%) done
 
-[Thu Aug 18 17:22:14 2022]
+[Tue Aug 23 15:40:55 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 56
+    jobid: 65
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch17, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:24:30 2022]
-Finished job 62.
-41 of 158 steps (26%) done
+[Tue Aug 23 15:44:51 2022]
+Finished job 71.
+43 of 168 steps (26%) done
 
-[Thu Aug 18 17:24:30 2022]
+[Tue Aug 23 15:44:51 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch23_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 32
+    jobid: 41
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch23, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:27:26 2022]
-Finished job 32.
-42 of 158 steps (27%) done
-[Thu Aug 18 17:31:53 2022]
-Finished job 56.
-43 of 158 steps (27%) done
+[Tue Aug 23 15:49:01 2022]
+Finished job 41.
+44 of 168 steps (26%) done
+[Tue Aug 23 15:50:58 2022]
+Finished job 65.
+45 of 168 steps (27%) done
 
-[Thu Aug 18 17:31:53 2022]
+[Tue Aug 23 15:50:58 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch17_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 26
+    jobid: 35
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch17, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:35:04 2022]
-Finished job 26.
-44 of 158 steps (28%) done
-[Thu Aug 18 17:48:56 2022]
-Finished job 143.
-45 of 158 steps (28%) done
+[Tue Aug 23 15:54:53 2022]
+Finished job 35.
+46 of 168 steps (27%) done
+[Tue Aug 23 16:07:02 2022]
+Finished job 151.
+47 of 168 steps (28%) done
 
-[Thu Aug 18 17:48:56 2022]
+[Tue Aug 23 16:07:02 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 144
+    jobid: 152
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch22, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 17:48:56 2022]
+[Tue Aug 23 16:07:02 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch25.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.log
-    jobid: 149
+    jobid: 157
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch25, refgenome_id=Cavpor3.0
     threads: 10
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 17:49:01 2022]
-Finished job 144.
-46 of 158 steps (29%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 16:07:07 2022]
+Finished job 152.
+48 of 168 steps (29%) done
 
-[Thu Aug 18 17:49:01 2022]
+[Tue Aug 23 16:07:07 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch22_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch22_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 92
+    jobid: 100
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch22, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:49:58 2022]
-Finished job 92.
-47 of 158 steps (30%) done
+[Tue Aug 23 16:08:06 2022]
+Finished job 100.
+49 of 168 steps (29%) done
 
-[Thu Aug 18 17:49:58 2022]
+[Tue Aug 23 16:08:06 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 61
+    jobid: 70
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch22, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:58:21 2022]
-Finished job 151.
-48 of 158 steps (30%) done
+[Tue Aug 23 16:16:13 2022]
+Finished job 159.
+50 of 168 steps (30%) done
 
-[Thu Aug 18 17:58:21 2022]
-rule haplotag:
-    input: results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
-    output: results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt
-    log: results/logs/results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 152
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-[Thu Aug 18 17:58:21 2022]
+[Tue Aug 23 16:16:13 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch16.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.log
-    jobid: 131
+    jobid: 139
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch16, refgenome_id=Cavpor3.0
     threads: 10
 
+
+[Tue Aug 23 16:16:13 2022]
+rule haplotag:
+    input: results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
+    output: results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt
+    log: results/logs/results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.log
+    jobid: 160
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 17:58:25 2022]
-Finished job 152.
-49 of 158 steps (31%) done
+[Tue Aug 23 16:16:18 2022]
+Finished job 160.
+51 of 168 steps (30%) done
 
-[Thu Aug 18 17:58:25 2022]
+[Tue Aug 23 16:16:18 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch26_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch26_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 96
+    jobid: 104
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:58:50 2022]
-Finished job 61.
-50 of 158 steps (32%) done
+[Tue Aug 23 16:16:41 2022]
+Finished job 70.
+52 of 168 steps (31%) done
 
-[Thu Aug 18 17:58:50 2022]
+[Tue Aug 23 16:16:41 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch22_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 31
+    jobid: 40
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch22, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 17:59:23 2022]
-Finished job 96.
-51 of 158 steps (32%) done
+[Tue Aug 23 16:17:15 2022]
+Finished job 104.
+53 of 168 steps (32%) done
 
-[Thu Aug 18 17:59:23 2022]
+[Tue Aug 23 16:17:15 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 65
+    jobid: 74
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:02:21 2022]
-Finished job 31.
-52 of 158 steps (33%) done
-[Thu Aug 18 18:07:41 2022]
-Finished job 65.
-53 of 158 steps (34%) done
+[Tue Aug 23 16:20:07 2022]
+Finished job 40.
+54 of 168 steps (32%) done
+[Tue Aug 23 16:25:46 2022]
+Finished job 74.
+55 of 168 steps (33%) done
 
-[Thu Aug 18 18:07:41 2022]
+[Tue Aug 23 16:25:46 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch26_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 35
+    jobid: 44
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch26, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:11:06 2022]
-Finished job 35.
-54 of 158 steps (34%) done
-[Thu Aug 18 18:20:57 2022]
-Finished job 149.
-55 of 158 steps (35%) done
+[Tue Aug 23 16:29:14 2022]
+Finished job 44.
+56 of 168 steps (33%) done
+[Tue Aug 23 16:37:55 2022]
+Finished job 157.
+57 of 168 steps (34%) done
 
-[Thu Aug 18 18:20:57 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch27.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.log
-    jobid: 153
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 18:20:57 2022]
+[Tue Aug 23 16:37:56 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 150
+    jobid: 158
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch25, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 16:37:56 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch27.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.log
+    jobid: 161
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0
+    threads: 10
+
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 18:21:01 2022]
-Finished job 150.
-56 of 158 steps (35%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 16:38:00 2022]
+Finished job 158.
+58 of 168 steps (35%) done
 
-[Thu Aug 18 18:21:01 2022]
+[Tue Aug 23 16:38:00 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch25_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch25_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 95
+    jobid: 103
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch25, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:21:58 2022]
-Finished job 95.
-57 of 158 steps (36%) done
+[Tue Aug 23 16:38:53 2022]
+Finished job 103.
+59 of 168 steps (35%) done
 
-[Thu Aug 18 18:21:58 2022]
+[Tue Aug 23 16:38:53 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 64
+    jobid: 73
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch25, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:30:23 2022]
-Finished job 64.
-58 of 158 steps (37%) done
+[Tue Aug 23 16:46:17 2022]
+Finished job 73.
+60 of 168 steps (36%) done
 
-[Thu Aug 18 18:30:23 2022]
+[Tue Aug 23 16:46:17 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch25_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 34
+    jobid: 43
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch25, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:31:51 2022]
-Finished job 131.
-59 of 158 steps (37%) done
+[Tue Aug 23 16:48:56 2022]
+Finished job 139.
+61 of 168 steps (36%) done
 
-[Thu Aug 18 18:31:51 2022]
+[Tue Aug 23 16:48:56 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch29.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.log
-    jobid: 157
+    jobid: 165
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch29, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 18:31:51 2022]
+[Tue Aug 23 16:48:56 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 132
+    jobid: 140
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch16, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 18:32:00 2022]
-Finished job 132.
-60 of 158 steps (38%) done
+[Tue Aug 23 16:49:00 2022]
+Finished job 140.
+62 of 168 steps (37%) done
 
-[Thu Aug 18 18:32:00 2022]
+[Tue Aug 23 16:49:00 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch16_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch16_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 86
+    jobid: 94
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch16, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:32:53 2022]
-Finished job 86.
-61 of 158 steps (39%) done
+[Tue Aug 23 16:49:56 2022]
+Finished job 94.
+63 of 168 steps (38%) done
 
-[Thu Aug 18 18:32:53 2022]
+[Tue Aug 23 16:49:56 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 55
+    jobid: 64
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch16, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+[Tue Aug 23 16:49:58 2022]
+Finished job 43.
+64 of 168 steps (38%) done
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:34:04 2022]
-Finished job 34.
-62 of 158 steps (39%) done
-[Thu Aug 18 18:40:50 2022]
-Finished job 55.
-63 of 158 steps (40%) done
+[Tue Aug 23 16:58:03 2022]
+Finished job 64.
+65 of 168 steps (39%) done
 
-[Thu Aug 18 18:40:50 2022]
+[Tue Aug 23 16:58:03 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch16_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 25
+    jobid: 34
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch16, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 18:44:00 2022]
-Finished job 25.
-64 of 158 steps (41%) done
-[Thu Aug 18 19:02:46 2022]
-Finished job 157.
-65 of 158 steps (41%) done
+[Tue Aug 23 17:01:39 2022]
+Finished job 34.
+66 of 168 steps (39%) done
+[Tue Aug 23 17:18:24 2022]
+Finished job 165.
+67 of 168 steps (40%) done
 
-[Thu Aug 18 19:02:46 2022]
+[Tue Aug 23 17:18:24 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch18.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.log
-    jobid: 135
+    jobid: 143
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch18, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 19:02:46 2022]
+[Tue Aug 23 17:18:24 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 158
+    jobid: 166
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch29, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 19:02:51 2022]
-Finished job 158.
-66 of 158 steps (42%) done
+[Tue Aug 23 17:18:30 2022]
+Finished job 166.
+68 of 168 steps (40%) done
 
-[Thu Aug 18 19:02:51 2022]
+[Tue Aug 23 17:18:30 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch29_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch29_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 99
+    jobid: 107
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch29, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:03:42 2022]
-Finished job 99.
-67 of 158 steps (42%) done
+[Tue Aug 23 17:19:23 2022]
+Finished job 107.
+69 of 168 steps (41%) done
 
-[Thu Aug 18 19:03:42 2022]
+[Tue Aug 23 17:19:23 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 68
+    jobid: 77
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch29, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:09:40 2022]
-Finished job 153.
-68 of 158 steps (43%) done
+[Tue Aug 23 17:24:27 2022]
+Finished job 161.
+70 of 168 steps (42%) done
 
-[Thu Aug 18 19:09:40 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch28.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.log
-    jobid: 155
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 19:09:40 2022]
+[Tue Aug 23 17:24:27 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 154
+    jobid: 162
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+[Tue Aug 23 17:24:27 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch28.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.log
+    jobid: 163
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0
+    threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 19:09:44 2022]
-Finished job 154.
-69 of 158 steps (44%) done
+[Tue Aug 23 17:24:32 2022]
+Finished job 162.
+71 of 168 steps (42%) done
 
-[Thu Aug 18 19:09:44 2022]
+[Tue Aug 23 17:24:32 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch27_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch27_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 97
+    jobid: 105
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:10:41 2022]
-Finished job 97.
-70 of 158 steps (44%) done
+[Tue Aug 23 17:25:30 2022]
+Finished job 105.
+72 of 168 steps (43%) done
 
-[Thu Aug 18 19:10:41 2022]
+[Tue Aug 23 17:25:30 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 66
+    jobid: 75
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:11:33 2022]
-Finished job 68.
-71 of 158 steps (45%) done
+[Tue Aug 23 17:27:17 2022]
+Finished job 77.
+73 of 168 steps (43%) done
 
-[Thu Aug 18 19:11:33 2022]
+[Tue Aug 23 17:27:17 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch29_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 38
+    jobid: 47
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch29, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:15:02 2022]
-Finished job 38.
-72 of 158 steps (46%) done
-[Thu Aug 18 19:19:07 2022]
-Finished job 66.
-73 of 158 steps (46%) done
+[Tue Aug 23 17:31:16 2022]
+Finished job 47.
+74 of 168 steps (44%) done
+[Tue Aug 23 17:34:18 2022]
+Finished job 75.
+75 of 168 steps (45%) done
 
-[Thu Aug 18 19:19:07 2022]
+[Tue Aug 23 17:34:18 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch27_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 36
+    jobid: 45
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch27, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:23:08 2022]
-Finished job 36.
-74 of 158 steps (47%) done
-[Thu Aug 18 19:32:40 2022]
-Finished job 135.
-75 of 158 steps (47%) done
+[Tue Aug 23 17:37:50 2022]
+Finished job 45.
+76 of 168 steps (45%) done
+[Tue Aug 23 17:48:05 2022]
+Finished job 143.
+77 of 168 steps (46%) done
 
-[Thu Aug 18 19:32:40 2022]
+[Tue Aug 23 17:48:05 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch5.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.log
-    jobid: 109
+    jobid: 117
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 19:32:40 2022]
+[Tue Aug 23 17:48:05 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 136
+    jobid: 144
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch18, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 19:32:45 2022]
-Finished job 136.
-76 of 158 steps (48%) done
+[Tue Aug 23 17:48:10 2022]
+Finished job 144.
+78 of 168 steps (46%) done
 
-[Thu Aug 18 19:32:45 2022]
+[Tue Aug 23 17:48:10 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch18_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch18_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 88
+    jobid: 96
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch18, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:33:41 2022]
-Finished job 88.
-77 of 158 steps (49%) done
+[Tue Aug 23 17:49:07 2022]
+Finished job 96.
+79 of 168 steps (47%) done
 
-[Thu Aug 18 19:33:41 2022]
+[Tue Aug 23 17:49:07 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 57
+    jobid: 66
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch18, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:37:48 2022]
-Finished job 155.
-78 of 158 steps (49%) done
+[Tue Aug 23 17:52:25 2022]
+Finished job 163.
+80 of 168 steps (48%) done
 
-[Thu Aug 18 19:37:48 2022]
-rule haplotag:
-    input: results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
-    output: results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt
-    log: results/logs/results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 156
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-[Thu Aug 18 19:37:48 2022]
+[Tue Aug 23 17:52:25 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch3.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.log
-    jobid: 105
+    jobid: 113
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch3, refgenome_id=Cavpor3.0
     threads: 10
 
+
+[Tue Aug 23 17:52:25 2022]
+rule haplotag:
+    input: results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
+    output: results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt
+    log: results/logs/results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.log
+    jobid: 164
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 19:37:52 2022]
-Finished job 156.
-79 of 158 steps (50%) done
+[Tue Aug 23 17:52:30 2022]
+Finished job 164.
+81 of 168 steps (48%) done
 
-[Thu Aug 18 19:37:52 2022]
+[Tue Aug 23 17:52:30 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch28_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch28_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 98
+    jobid: 106
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:38:50 2022]
-Finished job 98.
-80 of 158 steps (51%) done
+[Tue Aug 23 17:53:28 2022]
+Finished job 106.
+82 of 168 steps (49%) done
 
-[Thu Aug 18 19:38:50 2022]
+[Tue Aug 23 17:53:28 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 67
+    jobid: 76
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:42:20 2022]
-Finished job 57.
-81 of 158 steps (51%) done
+[Tue Aug 23 17:58:26 2022]
+Finished job 66.
+83 of 168 steps (49%) done
 
-[Thu Aug 18 19:42:20 2022]
+[Tue Aug 23 17:58:26 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch18_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 27
+    jobid: 36
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch18, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:45:47 2022]
-Finished job 27.
-82 of 158 steps (52%) done
-[Thu Aug 18 19:47:06 2022]
-Finished job 67.
-83 of 158 steps (53%) done
+[Tue Aug 23 18:02:10 2022]
+Finished job 76.
+84 of 168 steps (50%) done
 
-[Thu Aug 18 19:47:06 2022]
+[Tue Aug 23 18:02:10 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch28_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 37
+    jobid: 46
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch28, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+[Tue Aug 23 18:02:11 2022]
+Finished job 36.
+85 of 168 steps (51%) done
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:50:31 2022]
-Finished job 37.
-84 of 158 steps (53%) done
-[Thu Aug 18 19:58:13 2022]
-Finished job 109.
-85 of 158 steps (54%) done
+[Tue Aug 23 18:05:27 2022]
+Finished job 46.
+86 of 168 steps (51%) done
+[Tue Aug 23 18:13:39 2022]
+Finished job 117.
+87 of 168 steps (52%) done
 
-[Thu Aug 18 19:58:13 2022]
+[Tue Aug 23 18:13:39 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch9.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.log
-    jobid: 117
+    jobid: 125
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch9, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 19:58:13 2022]
+[Tue Aug 23 18:13:39 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 110
+    jobid: 118
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 19:58:17 2022]
-Finished job 110.
-86 of 158 steps (54%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 18:13:44 2022]
+Finished job 118.
+88 of 168 steps (52%) done
 
-[Thu Aug 18 19:58:17 2022]
+[Tue Aug 23 18:13:44 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch5_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch5_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 75
+    jobid: 83
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 19:59:14 2022]
-Finished job 75.
-87 of 158 steps (55%) done
+[Tue Aug 23 18:14:36 2022]
+Finished job 83.
+89 of 168 steps (53%) done
 
-[Thu Aug 18 19:59:14 2022]
+[Tue Aug 23 18:14:36 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 44
+    jobid: 53
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:06:22 2022]
-Finished job 44.
-88 of 158 steps (56%) done
+[Tue Aug 23 18:21:26 2022]
+Finished job 113.
+90 of 168 steps (54%) done
 
-[Thu Aug 18 20:06:22 2022]
-rule to_contacts:
-    input: results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet
-    output: results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet
-    log: results/logs/results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 14
-    benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:08:00 2022]
-Finished job 105.
-89 of 158 steps (56%) done
-
-[Thu Aug 18 20:08:00 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch4.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.log
-    jobid: 107
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 20:08:00 2022]
+[Tue Aug 23 18:21:26 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 106
+    jobid: 114
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch3, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+[Tue Aug 23 18:21:26 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch4.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.log
+    jobid: 115
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0
+    threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 20:08:05 2022]
-Finished job 106.
-90 of 158 steps (57%) done
+[Tue Aug 23 18:21:31 2022]
+Finished job 114.
+91 of 168 steps (54%) done
 
-[Thu Aug 18 20:08:05 2022]
+[Tue Aug 23 18:21:31 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch3_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch3_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 73
+    jobid: 81
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch3, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:08:58 2022]
-Finished job 73.
-91 of 158 steps (58%) done
+[Tue Aug 23 18:22:23 2022]
+Finished job 81.
+92 of 168 steps (55%) done
 
-[Thu Aug 18 20:08:58 2022]
+[Tue Aug 23 18:22:23 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 42
+    jobid: 51
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch3, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:09:37 2022]
-Finished job 14.
-92 of 158 steps (58%) done
-[Thu Aug 18 20:17:15 2022]
-Finished job 42.
-93 of 158 steps (59%) done
+[Tue Aug 23 18:23:06 2022]
+Finished job 53.
+93 of 168 steps (55%) done
 
-[Thu Aug 18 20:17:15 2022]
+[Tue Aug 23 18:23:06 2022]
+rule to_contacts:
+    input: results/align_table/NlaIII_run01_batch5_Cavpor3.0_unphased.at.pore_c.parquet
+    output: results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet
+    log: results/logs/results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.log
+    jobid: 23
+    benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch5, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 18:26:24 2022]
+Finished job 23.
+94 of 168 steps (56%) done
+[Tue Aug 23 18:31:01 2022]
+Finished job 51.
+95 of 168 steps (57%) done
+
+[Tue Aug 23 18:31:01 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch3_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 12
+    jobid: 21
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch3, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:20:33 2022]
-Finished job 12.
-94 of 158 steps (59%) done
-[Thu Aug 18 20:25:37 2022]
-Finished job 117.
-95 of 158 steps (60%) done
+[Tue Aug 23 18:34:20 2022]
+Finished job 21.
+96 of 168 steps (57%) done
+[Tue Aug 23 18:40:08 2022]
+Finished job 125.
+97 of 168 steps (58%) done
 
-[Thu Aug 18 20:25:37 2022]
+[Tue Aug 23 18:40:08 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 118
+    jobid: 126
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch9, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 20:25:37 2022]
+[Tue Aug 23 18:40:08 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch2.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.log
-    jobid: 103
+    jobid: 111
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch2, refgenome_id=Cavpor3.0
     threads: 10
@@ -1709,285 +1754,285 @@ rule align_bwa:
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 20:25:42 2022]
-Finished job 118.
-96 of 158 steps (61%) done
+[Tue Aug 23 18:40:13 2022]
+Finished job 126.
+98 of 168 steps (58%) done
 
-[Thu Aug 18 20:25:42 2022]
+[Tue Aug 23 18:40:13 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch9_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch9_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 79
+    jobid: 87
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch9, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:26:37 2022]
-Finished job 79.
-97 of 158 steps (61%) done
+[Tue Aug 23 18:41:11 2022]
+Finished job 87.
+99 of 168 steps (59%) done
 
-[Thu Aug 18 20:26:37 2022]
+[Tue Aug 23 18:41:11 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 48
+    jobid: 57
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch9, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:33:49 2022]
-Finished job 48.
-98 of 158 steps (62%) done
+[Tue Aug 23 18:48:22 2022]
+Finished job 57.
+100 of 168 steps (60%) done
 
-[Thu Aug 18 20:33:49 2022]
+[Tue Aug 23 18:48:22 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch9_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 18
+    jobid: 27
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch9, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:35:01 2022]
-Finished job 107.
-99 of 158 steps (63%) done
+[Tue Aug 23 18:48:57 2022]
+Finished job 115.
+101 of 168 steps (60%) done
 
-[Thu Aug 18 20:35:01 2022]
+[Tue Aug 23 18:48:57 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch13.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.log
-    jobid: 125
+    jobid: 133
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch13, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 20:35:01 2022]
+[Tue Aug 23 18:48:57 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 108
+    jobid: 116
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 20:35:06 2022]
-Finished job 108.
-100 of 158 steps (63%) done
+[Tue Aug 23 18:49:02 2022]
+Finished job 116.
+102 of 168 steps (61%) done
 
-[Thu Aug 18 20:35:06 2022]
+[Tue Aug 23 18:49:02 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch4_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch4_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 74
+    jobid: 82
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:35:57 2022]
-Finished job 74.
-101 of 158 steps (64%) done
+[Tue Aug 23 18:49:54 2022]
+Finished job 82.
+103 of 168 steps (61%) done
 
-[Thu Aug 18 20:35:57 2022]
+[Tue Aug 23 18:49:54 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 43
+    jobid: 52
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:36:58 2022]
-Finished job 18.
-102 of 158 steps (65%) done
-[Thu Aug 18 20:44:42 2022]
-Finished job 43.
-103 of 158 steps (65%) done
+[Tue Aug 23 18:51:58 2022]
+Finished job 27.
+104 of 168 steps (62%) done
+[Tue Aug 23 18:59:12 2022]
+Finished job 52.
+105 of 168 steps (62%) done
 
-[Thu Aug 18 20:44:42 2022]
+[Tue Aug 23 18:59:12 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch4_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 13
+    jobid: 22
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch4, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:47:56 2022]
-Finished job 13.
-104 of 158 steps (66%) done
-[Thu Aug 18 20:53:57 2022]
-Finished job 103.
-105 of 158 steps (66%) done
+[Tue Aug 23 19:01:55 2022]
+Finished job 22.
+106 of 168 steps (63%) done
+[Tue Aug 23 19:09:22 2022]
+Finished job 111.
+107 of 168 steps (64%) done
 
-[Thu Aug 18 20:53:57 2022]
+[Tue Aug 23 19:09:22 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch11.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.log
-    jobid: 121
+    jobid: 129
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 20:53:57 2022]
+[Tue Aug 23 19:09:22 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 104
+    jobid: 112
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch2, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 20:54:02 2022]
-Finished job 104.
-106 of 158 steps (67%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 19:09:27 2022]
+Finished job 112.
+108 of 168 steps (64%) done
 
-[Thu Aug 18 20:54:02 2022]
+[Tue Aug 23 19:09:27 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch2_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch2_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 72
+    jobid: 80
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch2, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 20:54:59 2022]
-Finished job 72.
-107 of 158 steps (68%) done
+[Tue Aug 23 19:10:38 2022]
+Finished job 80.
+109 of 168 steps (65%) done
 
-[Thu Aug 18 20:54:59 2022]
+[Tue Aug 23 19:10:38 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 41
+    jobid: 50
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch2, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:04:02 2022]
-Finished job 41.
-108 of 158 steps (68%) done
+[Tue Aug 23 19:19:34 2022]
+Finished job 50.
+110 of 168 steps (65%) done
 
-[Thu Aug 18 21:04:02 2022]
+[Tue Aug 23 19:19:34 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch2_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 11
+    jobid: 20
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch2, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:04:12 2022]
-Finished job 125.
-109 of 158 steps (69%) done
+[Tue Aug 23 19:20:08 2022]
+Finished job 133.
+111 of 168 steps (66%) done
 
-[Thu Aug 18 21:04:12 2022]
+[Tue Aug 23 19:20:08 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 126
+    jobid: 134
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch13, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 21:04:12 2022]
+[Tue Aug 23 19:20:08 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch6.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.log
-    jobid: 111
+    jobid: 119
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch6, refgenome_id=Cavpor3.0
     threads: 10
 
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 21:04:17 2022]
-Finished job 126.
-110 of 158 steps (70%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 19:20:12 2022]
+Finished job 134.
+112 of 168 steps (67%) done
 
-[Thu Aug 18 21:04:17 2022]
+[Tue Aug 23 19:20:12 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch13_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch13_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 83
+    jobid: 91
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch13, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:05:07 2022]
-Finished job 83.
-111 of 158 steps (70%) done
+[Tue Aug 23 19:21:02 2022]
+Finished job 91.
+113 of 168 steps (67%) done
 
-[Thu Aug 18 21:05:07 2022]
+[Tue Aug 23 19:21:02 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 52
+    jobid: 61
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch13, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:07:14 2022]
-Finished job 11.
-112 of 158 steps (71%) done
-[Thu Aug 18 21:14:19 2022]
-Finished job 52.
-113 of 158 steps (72%) done
+[Tue Aug 23 19:22:53 2022]
+Finished job 20.
+114 of 168 steps (68%) done
+[Tue Aug 23 19:29:23 2022]
+Finished job 61.
+115 of 168 steps (68%) done
 
-[Thu Aug 18 21:14:19 2022]
+[Tue Aug 23 19:29:23 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch13_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 22
+    jobid: 31
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch13, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:17:33 2022]
-Finished job 22.
-114 of 158 steps (72%) done
-[Thu Aug 18 21:21:38 2022]
-Finished job 121.
-115 of 158 steps (73%) done
+[Tue Aug 23 19:32:34 2022]
+Finished job 31.
+116 of 168 steps (69%) done
+[Tue Aug 23 19:37:21 2022]
+Finished job 129.
+117 of 168 steps (70%) done
 
-[Thu Aug 18 21:21:38 2022]
+[Tue Aug 23 19:37:21 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 122
+    jobid: 130
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 21:21:38 2022]
+[Tue Aug 23 19:37:21 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch12.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.log
-    jobid: 123
+    jobid: 131
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch12, refgenome_id=Cavpor3.0
     threads: 10
@@ -1995,552 +2040,550 @@ rule align_bwa:
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 21:21:42 2022]
-Finished job 122.
-116 of 158 steps (73%) done
+[Tue Aug 23 19:37:25 2022]
+Finished job 130.
+118 of 168 steps (70%) done
 
-[Thu Aug 18 21:21:42 2022]
+[Tue Aug 23 19:37:25 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch11_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch11_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 81
+    jobid: 89
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:22:39 2022]
-Finished job 81.
-117 of 158 steps (74%) done
+[Tue Aug 23 19:38:13 2022]
+Finished job 89.
+119 of 168 steps (71%) done
 
-[Thu Aug 18 21:22:39 2022]
+[Tue Aug 23 19:38:13 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 50
+    jobid: 59
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:31:15 2022]
-Finished job 111.
-118 of 158 steps (75%) done
+[Tue Aug 23 19:45:32 2022]
+Finished job 59.
+120 of 168 steps (71%) done
 
-[Thu Aug 18 21:31:15 2022]
+[Tue Aug 23 19:45:32 2022]
+rule to_contacts:
+    input: results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet
+    output: results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet
+    log: results/logs/results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.log
+    jobid: 29
+    benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 19:47:15 2022]
+Finished job 119.
+121 of 168 steps (72%) done
+
+[Tue Aug 23 19:47:15 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch10.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.log
-    jobid: 119
+    jobid: 127
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 21:31:15 2022]
+[Tue Aug 23 19:47:15 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 112
+    jobid: 120
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch6, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 21:31:20 2022]
-Finished job 112.
-119 of 158 steps (75%) done
+[Tue Aug 23 19:47:20 2022]
+Finished job 120.
+122 of 168 steps (73%) done
 
-[Thu Aug 18 21:31:20 2022]
+[Tue Aug 23 19:47:20 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch6_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch6_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 76
+    jobid: 84
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch6, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:32:13 2022]
-Finished job 50.
-120 of 158 steps (76%) done
+[Tue Aug 23 19:48:11 2022]
+Finished job 84.
+123 of 168 steps (73%) done
 
-[Thu Aug 18 21:32:13 2022]
-rule to_contacts:
-    input: results/align_table/NlaIII_run01_batch11_Cavpor3.0_unphased.at.pore_c.parquet
-    output: results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet
-    log: results/logs/results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 20
-    benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch11, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:32:18 2022]
-Finished job 76.
-121 of 158 steps (77%) done
-
-[Thu Aug 18 21:32:18 2022]
+[Tue Aug 23 19:48:11 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 45
+    jobid: 54
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch6, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:36:06 2022]
-Finished job 20.
-122 of 158 steps (77%) done
-[Thu Aug 18 21:41:31 2022]
-Finished job 45.
-123 of 158 steps (78%) done
+[Tue Aug 23 19:48:40 2022]
+Finished job 29.
+124 of 168 steps (74%) done
+[Tue Aug 23 19:56:42 2022]
+Finished job 54.
+125 of 168 steps (74%) done
 
-[Thu Aug 18 21:41:31 2022]
+[Tue Aug 23 19:56:42 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch6_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 15
+    jobid: 24
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch6, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:45:26 2022]
-Finished job 15.
-124 of 158 steps (78%) done
-[Thu Aug 18 21:50:44 2022]
-Finished job 123.
-125 of 158 steps (79%) done
+[Tue Aug 23 19:59:59 2022]
+Finished job 24.
+126 of 168 steps (75%) done
+[Tue Aug 23 20:04:52 2022]
+Finished job 131.
+127 of 168 steps (76%) done
 
-[Thu Aug 18 21:50:44 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch1.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.log
-    jobid: 101
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 21:50:44 2022]
+[Tue Aug 23 20:04:52 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 124
+    jobid: 132
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch12, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+[Tue Aug 23 20:04:52 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch1.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.log
+    jobid: 109
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0
+    threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 21:50:49 2022]
-Finished job 124.
-126 of 158 steps (80%) done
+[Tue Aug 23 20:04:57 2022]
+Finished job 132.
+128 of 168 steps (76%) done
 
-[Thu Aug 18 21:50:49 2022]
+[Tue Aug 23 20:04:57 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch12_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch12_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 82
+    jobid: 90
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch12, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 21:51:47 2022]
-Finished job 82.
-127 of 158 steps (80%) done
+[Tue Aug 23 20:05:50 2022]
+Finished job 90.
+129 of 168 steps (77%) done
 
-[Thu Aug 18 21:51:47 2022]
+[Tue Aug 23 20:05:50 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 51
+    jobid: 60
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch12, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:00:45 2022]
-Finished job 119.
-128 of 158 steps (81%) done
+[Tue Aug 23 20:14:16 2022]
+Finished job 60.
+130 of 168 steps (77%) done
 
-[Thu Aug 18 22:00:45 2022]
-rule align_bwa:
-    input: results/basecall/NlaIII_run01.rd.batch8.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
-    output: results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bai
-    log: results/logs/results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.log
-    jobid: 115
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0
-    threads: 10
-
-
-[Thu Aug 18 22:00:45 2022]
-rule haplotag:
-    input: results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
-    output: results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt
-    log: results/logs/results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 120
-    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 22:00:50 2022]
-Finished job 120.
-129 of 158 steps (82%) done
-
-[Thu Aug 18 22:00:50 2022]
-rule create_alignment_table:
-    input: results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt
-    output: results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet
-    log: results/logs/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 80
-    benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
-    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
-
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:01:31 2022]
-Finished job 51.
-130 of 158 steps (82%) done
-
-[Thu Aug 18 22:01:31 2022]
+[Tue Aug 23 20:14:16 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch12_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 21
+    jobid: 30
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch12, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:01:46 2022]
-Finished job 80.
-131 of 158 steps (83%) done
+[Tue Aug 23 20:14:27 2022]
+Finished job 127.
+131 of 168 steps (78%) done
 
-[Thu Aug 18 22:01:46 2022]
+[Tue Aug 23 20:14:27 2022]
+rule haplotag:
+    input: results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
+    output: results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt
+    log: results/logs/results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.log
+    jobid: 128
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+[Tue Aug 23 20:14:27 2022]
+rule align_bwa:
+    input: results/basecall/NlaIII_run01.rd.batch8.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
+    output: results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bai
+    log: results/logs/results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.log
+    jobid: 123
+    benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0
+    threads: 10
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
+[Tue Aug 23 20:14:32 2022]
+Finished job 128.
+132 of 168 steps (79%) done
+
+[Tue Aug 23 20:14:32 2022]
+rule create_alignment_table:
+    input: results/mapping/NlaIII_run01_batch10_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch10_Cavpor3.0_unphased.haplotagged.txt
+    output: results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet
+    log: results/logs/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.log
+    jobid: 88
+    benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 20:15:26 2022]
+Finished job 88.
+133 of 168 steps (79%) done
+
+[Tue Aug 23 20:15:26 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 49
+    jobid: 58
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:04:13 2022]
-Finished job 21.
-132 of 158 steps (84%) done
-[Thu Aug 18 22:11:16 2022]
-Finished job 49.
-133 of 158 steps (84%) done
+[Tue Aug 23 20:17:37 2022]
+Finished job 30.
+134 of 168 steps (80%) done
+[Tue Aug 23 20:23:53 2022]
+Finished job 58.
+135 of 168 steps (80%) done
 
-[Thu Aug 18 22:11:16 2022]
+[Tue Aug 23 20:23:53 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 19
+    jobid: 28
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch10, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:15:10 2022]
-Finished job 19.
-134 of 158 steps (85%) done
-[Thu Aug 18 22:27:07 2022]
-Finished job 101.
-135 of 158 steps (85%) done
+[Tue Aug 23 20:27:40 2022]
+Finished job 28.
+136 of 168 steps (81%) done
+[Tue Aug 23 20:38:25 2022]
+Finished job 109.
+137 of 168 steps (82%) done
 
-[Thu Aug 18 22:27:07 2022]
+[Tue Aug 23 20:38:25 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 102
+    jobid: 110
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 22:27:07 2022]
+[Tue Aug 23 20:38:25 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch7.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.log
-    jobid: 113
+    jobid: 121
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch7, refgenome_id=Cavpor3.0
     threads: 10
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 22:27:12 2022]
-Finished job 102.
-136 of 158 steps (86%) done
+[Tue Aug 23 20:38:29 2022]
+Finished job 110.
+138 of 168 steps (82%) done
 
-[Thu Aug 18 22:27:12 2022]
+[Tue Aug 23 20:38:29 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch1_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch1_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 70
+    jobid: 79
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:28:02 2022]
-Finished job 70.
-137 of 158 steps (87%) done
+[Tue Aug 23 20:39:21 2022]
+Finished job 79.
+139 of 168 steps (83%) done
 
-[Thu Aug 18 22:28:02 2022]
+[Tue Aug 23 20:39:21 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 40
+    jobid: 49
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:28:28 2022]
-Finished job 115.
-138 of 158 steps (87%) done
+[Tue Aug 23 20:40:56 2022]
+Finished job 123.
+140 of 168 steps (83%) done
 
-[Thu Aug 18 22:28:28 2022]
+[Tue Aug 23 20:40:56 2022]
 rule align_bwa:
     input: results/basecall/NlaIII_run01.rd.batch30.fq.gz, results/refgenome/Cavpor3.0.rg.fa, results/refgenome/Cavpor3.0.rg.fa.bwt
     output: results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.bai
     log: results/logs/results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.log
-    jobid: 159
+    jobid: 167
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch30, refgenome_id=Cavpor3.0
     threads: 10
 
 
-[Thu Aug 18 22:28:28 2022]
+[Tue Aug 23 20:40:56 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 116
+    jobid: 124
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/88358fe5
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 22:28:32 2022]
-Finished job 116.
-139 of 158 steps (88%) done
+[Tue Aug 23 20:41:01 2022]
+Finished job 124.
+141 of 168 steps (84%) done
 
-[Thu Aug 18 22:28:32 2022]
+[Tue Aug 23 20:41:01 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch8_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch8_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 78
+    jobid: 86
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:29:30 2022]
-Finished job 78.
-140 of 158 steps (89%) done
+[Tue Aug 23 20:41:52 2022]
+Finished job 86.
+142 of 168 steps (85%) done
 
-[Thu Aug 18 22:29:30 2022]
+[Tue Aug 23 20:41:52 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 47
+    jobid: 56
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:38:42 2022]
-Finished job 40.
-141 of 158 steps (89%) done
+[Tue Aug 23 20:47:42 2022]
+Finished job 49.
+143 of 168 steps (85%) done
 
-[Thu Aug 18 22:38:42 2022]
+[Tue Aug 23 20:47:42 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch1_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 10
+    jobid: 19
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch1, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:40:05 2022]
-Finished job 47.
-142 of 158 steps (90%) done
+[Tue Aug 23 20:50:27 2022]
+Finished job 56.
+144 of 168 steps (86%) done
 
-[Thu Aug 18 22:40:05 2022]
+[Tue Aug 23 20:50:27 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch8_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 17
+    jobid: 26
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch8, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:41:44 2022]
-Finished job 10.
-143 of 158 steps (91%) done
-[Thu Aug 18 22:42:42 2022]
-Finished job 17.
-144 of 158 steps (91%) done
-[Thu Aug 18 22:43:27 2022]
-Finished job 159.
-145 of 158 steps (92%) done
+[Tue Aug 23 20:51:00 2022]
+Finished job 19.
+145 of 168 steps (86%) done
+[Tue Aug 23 20:53:29 2022]
+Finished job 26.
+146 of 168 steps (87%) done
+[Tue Aug 23 20:53:45 2022]
+Finished job 167.
+147 of 168 steps (88%) done
 
-[Thu Aug 18 22:43:27 2022]
+[Tue Aug 23 20:53:45 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 160
+    jobid: 168
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch30, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 22:43:32 2022]
-Finished job 160.
-146 of 158 steps (92%) done
+[Tue Aug 23 20:53:50 2022]
+Finished job 168.
+148 of 168 steps (88%) done
 
-[Thu Aug 18 22:43:32 2022]
+[Tue Aug 23 20:53:50 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch30_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch30_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 100
+    jobid: 108
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch30, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:43:55 2022]
-Finished job 100.
-147 of 158 steps (93%) done
+[Tue Aug 23 20:54:16 2022]
+Finished job 108.
+149 of 168 steps (89%) done
 
-[Thu Aug 18 22:43:55 2022]
+[Tue Aug 23 20:54:16 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 69
+    jobid: 78
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch30, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:48:56 2022]
-Finished job 69.
-148 of 158 steps (94%) done
+[Tue Aug 23 20:59:15 2022]
+Finished job 78.
+150 of 168 steps (89%) done
 
-[Thu Aug 18 22:48:56 2022]
+[Tue Aug 23 20:59:15 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch30_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 39
+    jobid: 48
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch30, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:50:28 2022]
-Finished job 39.
-149 of 158 steps (94%) done
-[Thu Aug 18 22:55:05 2022]
-Finished job 113.
-150 of 158 steps (95%) done
+[Tue Aug 23 21:00:42 2022]
+Finished job 48.
+151 of 168 steps (90%) done
+[Tue Aug 23 21:04:40 2022]
+Finished job 121.
+152 of 168 steps (90%) done
 
-[Thu Aug 18 22:55:05 2022]
+[Tue Aug 23 21:04:40 2022]
 rule haplotag:
     input: results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam.bai, results/refgenome/Cavpor3.0.rg.fa
     output: results/mapping/NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt
     log: results/logs/results/mapping/NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt.log
-    jobid: 114
+    jobid: 122
     benchmark: results/benchmarks/results/mapping/NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch7, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/164ce7af
-[Thu Aug 18 22:55:10 2022]
-Finished job 114.
-151 of 158 steps (96%) done
+[Tue Aug 23 21:04:46 2022]
+Finished job 122.
+153 of 168 steps (91%) done
 
-[Thu Aug 18 22:55:10 2022]
+[Tue Aug 23 21:04:46 2022]
 rule create_alignment_table:
     input: results/mapping/NlaIII_run01_batch7_Cavpor3.0.coord_sort.bam, results/mapping/NlaIII_run01_batch7_Cavpor3.0_unphased.haplotagged.txt
     output: results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet.log
-    jobid: 77
+    jobid: 85
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch7, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 22:55:52 2022]
-Finished job 77.
-152 of 158 steps (96%) done
+[Tue Aug 23 21:05:27 2022]
+Finished job 85.
+154 of 168 steps (92%) done
 
-[Thu Aug 18 22:55:52 2022]
+[Tue Aug 23 21:05:27 2022]
 rule assign_fragments:
     input: results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.alignment.parquet, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
     output: results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet
     log: results/logs/results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet.log
-    jobid: 46
+    jobid: 55
     benchmark: results/benchmarks/results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch7, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 23:02:20 2022]
-Finished job 46.
-153 of 158 steps (97%) done
+[Tue Aug 23 21:11:53 2022]
+Finished job 55.
+155 of 168 steps (92%) done
 
-[Thu Aug 18 23:02:20 2022]
+[Tue Aug 23 21:11:53 2022]
 rule to_contacts:
     input: results/align_table/NlaIII_run01_batch7_Cavpor3.0_unphased.at.pore_c.parquet
     output: results/contacts/NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/contacts/NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 16
+    jobid: 25
     benchmark: results/benchmarks/results/contacts/NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, batch_id=batch7, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 23:04:54 2022]
-Finished job 16.
-154 of 158 steps (97%) done
+[Tue Aug 23 21:14:24 2022]
+Finished job 25.
+156 of 168 steps (93%) done
 
-[Thu Aug 18 23:04:54 2022]
+[Tue Aug 23 21:14:24 2022]
 rule create_contact_fofn:
     input: results/contacts/NlaIII_run01_batch1_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch2_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch3_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch4_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch5_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch6_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch7_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch8_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch9_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch10_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch11_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch12_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch13_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch14_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch15_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch16_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch17_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch18_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch19_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch20_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch21_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch22_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch23_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch24_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch25_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch26_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch27_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch28_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch29_Cavpor3.0_unphased.contacts.parquet, results/contacts/NlaIII_run01_batch30_Cavpor3.0_unphased.contacts.parquet
     output: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.fofn.txt
-    jobid: 9
+    jobid: 18
     wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
 [33mJob counts:
 	count	jobs
 	1	create_contact_fofn
 	1[0m
-[Thu Aug 18 23:04:58 2022]
-Finished job 9.
-155 of 158 steps (98%) done
+[Tue Aug 23 21:14:28 2022]
+Finished job 18.
+157 of 168 steps (93%) done
 
-[Thu Aug 18 23:04:58 2022]
+[Tue Aug 23 21:14:28 2022]
 rule merge_contact_files:
     input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.fofn.txt
     output: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet
     log: results/logs/results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet.log
-    jobid: 5
+    jobid: 7
     benchmark: results/benchmarks/results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
     threads: 4
@@ -2558,31 +2601,147 @@ Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/r
   res = method(*args, **kwargs)
 /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/pandas/core/arrays/categorical.py:2747: FutureWarning: The `inplace` parameter in pandas.Categorical.set_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
   res = method(*args, **kwargs)
-[Thu Aug 18 23:05:21 2022]
-Finished job 5.
-156 of 158 steps (99%) done
+[Tue Aug 23 21:14:50 2022]
+Finished job 7.
+158 of 168 steps (94%) done
 
-[Thu Aug 18 23:05:21 2022]
+[Tue Aug 23 21:14:50 2022]
+rule to_cooler:
+    input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet, results/refgenome/Cavpor3.0.rg.chromsizes, results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet
+    output: results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool
+    log: results/logs/results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool.log
+    jobid: 9
+    benchmark: results/benchmarks/results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+    threads: 10
+
+
+[Tue Aug 23 21:14:50 2022]
+rule to_mnd:
+    input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet, results/refgenome/Cavpor3.0.rg.fa
+    output: results/juicebox/NlaIII_run01_Cavpor3.0_unphased.mnd.txt
+    log: results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.mnd.txt.log
+    jobid: 6
+    benchmark: results/benchmarks/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.mnd.txt.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+
+[Tue Aug 23 21:14:50 2022]
+rule to_unsorted_pairs:
+    input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet, results/refgenome/Cavpor3.0.rg.chromsizes
+    output: results/pairs/NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs
+    log: results/logs/results/pairs/NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs.log
+    jobid: 16
+    benchmark: results/benchmarks/results/pairs/NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+
+[Tue Aug 23 21:14:50 2022]
 rule summarise_contacts:
     input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet, results/basecall/NlaIII_run01.rd.summary.csv
     output: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet, results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemer_summary.csv
     log: results/logs/results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet.log
-    jobid: 8
+    jobid: 17
     benchmark: results/benchmarks/results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet.bench.txt
     wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
     threads: 10
 
 Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
-[Thu Aug 18 23:15:05 2022]
-Finished job 8.
-157 of 158 steps (99%) done
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 21:21:28 2022]
+Finished job 9.
+159 of 168 steps (95%) done
 
-[Thu Aug 18 23:15:05 2022]
-localrule all:
-    input: results/basecall/NlaIII_run01.rd.catalog.yaml, results/refgenome/Cavpor3.0.rg.fa.bwt, results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet
-    jobid: 7
+[Tue Aug 23 21:21:28 2022]
+rule create_mcool_file:
+    input: results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool
+    output: results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool
+    log: results/logs/results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool.log
+    jobid: 2
+    benchmark: results/benchmarks/results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
 
-[Thu Aug 18 23:15:05 2022]
-Finished job 7.
-158 of 158 steps (100%) done
-Complete log: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/log/2022-08-18T135718.962086.snakemake.log
+
+[Tue Aug 23 21:21:28 2022]
+rule to_salsa_bed:
+    input: results/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet
+    output: results/assembly/NlaIII_run01_Cavpor3.0_unphased.salsa.bed
+    log: results/logs/results/assembly/NlaIII_run01_Cavpor3.0_unphased.salsa.bed.log
+    jobid: 4
+    benchmark: results/benchmarks/results/assembly/NlaIII_run01_Cavpor3.0_unphased.salsa.bed.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+    threads: 4
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/22c38e1e
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7
+[Tue Aug 23 21:24:50 2022]
+Finished job 17.
+160 of 168 steps (95%) done
+[Tue Aug 23 21:26:15 2022]
+Finished job 2.
+161 of 168 steps (96%) done
+[Tue Aug 23 21:29:48 2022]
+Finished job 4.
+162 of 168 steps (96%) done
+[Tue Aug 23 21:31:02 2022]
+Finished job 16.
+163 of 168 steps (97%) done
+
+[Tue Aug 23 21:31:02 2022]
+rule to_sorted_pairs:
+    input: results/pairs/NlaIII_run01_Cavpor3.0_unphased.unsorted.pairs
+    output: results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz
+    log: results/logs/results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.log
+    jobid: 10
+    benchmark: results/benchmarks/results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+    threads: 10
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b304f39e
+[Tue Aug 23 21:33:01 2022]
+Finished job 10.
+164 of 168 steps (98%) done
+
+[Tue Aug 23 21:33:01 2022]
+rule index_pairs:
+    input: results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz
+    output: results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2
+    log: results/logs/results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2.log
+    jobid: 3
+    benchmark: results/benchmarks/results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz.px2.bench.txt
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+
+[Tue Aug 23 21:33:01 2022]
+rule create_hic:
+    input: results/juicebox/NlaIII_Cavpor3.0.hicRef, results/refgenome/Cavpor3.0.rg.chromsizes, results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz, results/juicebox/juicer_tools.jar
+    output: results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+    log: results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log
+    jobid: 5
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/d297b3f0
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/1687814d
+[Tue Aug 23 21:33:21 2022]
+Finished job 3.
+165 of 168 steps (98%) done
+[Tue Aug 23 22:27:21 2022]
+Finished job 6.
+166 of 168 steps (99%) done
+[Wed Aug 24 05:27:40 2022]
+Error in rule create_hic:
+    jobid: 5
+    output: results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+    log: results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log (check log file(s) for error message)
+    conda-env: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/1687814d
+    shell:
+        java -Xmx2g -jar results/juicebox/juicer_tools.jar pre results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic results/refgenome/Cavpor3.0.rg.chromsizes -f results/juicebox/NlaIII_Cavpor3.0.hicRef &>results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job create_hic since they might be corrupted:
+results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/log/2022-08-23T115559.802821.snakemake.log

@@ -4,15 +4,15 @@
   _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
 /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.UInt64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
   _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
-2022-08-18 18:32:52,310 - pore_c.model - INFO - Aligment haplotypes dataframe is empty, haplotypes won't be added.
-2022-08-18 18:32:52,633 - pore_c - INFO - Mapping summary:
+2022-08-23 16:49:56,202 - pore_c.model - INFO - Aligment haplotypes dataframe is empty, haplotypes won't be added.
+2022-08-23 16:49:56,571 - pore_c - INFO - Mapping summary:
                 num_reads  num_aligns
 align_type                          
 unmapped             316         316
-primary            49684      295250
+primary            49684      295252
 secondary              0           0
 supplementary          0           0
-2022-08-18 18:32:52,638 - pore_c - INFO - Haplotype counts:
+2022-08-23 16:49:56,577 - pore_c - INFO - Haplotype counts:
             num_aligns
 haplotype            
--1             295566
+-1             295568

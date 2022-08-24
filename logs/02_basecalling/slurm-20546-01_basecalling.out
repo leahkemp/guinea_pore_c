@@ -20,11 +20,11 @@ runners per device: 4
 Use of this software is permitted solely under the terms of the end user license agreement (EULA).By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
 The EULA may be found in /opt/ont/guppy/bin
 Found 454 fast5 files to process.
-Init time: 4581 ms
+Init time: 3009 ms
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-Caller time: 35206990 ms, Samples called: 65364742600, samples/s: 1.85658e+06
+Caller time: 33293822 ms, Samples called: 65364742600, samples/s: 1.96327e+06
 Finishing up any open output files.
 Basecalling completed successfully.

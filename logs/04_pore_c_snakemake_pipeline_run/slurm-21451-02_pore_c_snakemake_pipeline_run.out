@@ -1,0 +1,58 @@
+
+Getting pore-c snakemake pipeline
+
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+
+Running pore-c snakemake pipeline
+
+Building DAG of jobs...
+Updating job 14 (create_contact_fofn).
+Updating job 1 (summarise_contacts).
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	create_hic
+	1	test
+	2
+
+[Wed Aug 24 08:43:31 2022]
+rule create_hic:
+    input: results/juicebox/NlaIII_Cavpor3.0.hicRef, results/refgenome/Cavpor3.0.rg.chromsizes, results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz, results/juicebox/juicer_tools.jar
+    output: results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+    log: results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log
+    jobid: 5
+    wildcards: enzyme=NlaIII, run_id=run01, refgenome_id=Cavpor3.0, phase_set_id=unphased
+
+Activating conda environment: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/1687814d
+[Wed Aug 24 16:34:36 2022]
+Error in rule create_hic:
+    jobid: 5
+    output: results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+    log: results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log (check log file(s) for error message)
+    conda-env: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/1687814d
+    shell:
+        java -Xmx2g -jar results/juicebox/juicer_tools.jar pre results/pairs/NlaIII_run01_Cavpor3.0_unphased.sorted.pairs.gz results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic results/refgenome/Cavpor3.0.rg.chromsizes -f results/juicebox/NlaIII_Cavpor3.0.hicRef &>results/logs/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job create_hic since they might be corrupted:
+results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/log/2022-08-24T084330.078242.snakemake.log

@@ -1,11 +1,8 @@
 # Results
 
-Results from this analysis
+Partial results from this analysis
 
-## 03 - initial QC
-
-- `./03_initial_qc/`: contains initial QC reports
-
-## 04 - Pore-C-Snakemake pipeline run
-
-- `./04_pore_c_snakemake_pipeline_run/pipeline_run/`: contains outputs from a [Pore-C-Snakemake](https://github.com/nanoporetech/Pore-C-Snakemake/) pipeline run on all samples
+- `./03_initial_qc/`: initial QC reports
+- `./04_pore_c_snakemake_pipeline_run/pipeline_run/`: outputs from a [Pore-C-Snakemake](https://github.com/nanoporetech/Pore-C-Snakemake/) pipeline run on all samples
+- `./05_look_at_outputs/`: outputs from looking at the pipeline outputs
+- `./06_data_visualisation/`: outputs from data visualisation

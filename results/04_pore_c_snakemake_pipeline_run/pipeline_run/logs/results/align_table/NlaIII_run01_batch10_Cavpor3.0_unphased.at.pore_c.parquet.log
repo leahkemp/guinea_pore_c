@@ -4,14 +4,14 @@
   _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
 /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/.snakemake/conda/b0c4d2a7/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.UInt64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
   _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
-2022-08-18 22:01:50,756 - pore_c - INFO - Assigning fragments from results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet to alignments from results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet
-2022-08-18 22:11:15,627 - pore_c - INFO - Found 274525 overlapping alignments
-2022-08-18 22:11:16,160 - pore_c - INFO - Fragments written to results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet
-2022-08-18 22:11:16,164 - pore_c - INFO - Summary: 
-pass                    175664
+2022-08-23 20:15:31,383 - pore_c - INFO - Assigning fragments from results/virtual_digest/NlaIII_Cavpor3.0.vd.fragments.parquet to alignments from results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.alignment.parquet
+2022-08-23 20:23:52,992 - pore_c - INFO - Found 274524 overlapping alignments
+2022-08-23 20:23:53,398 - pore_c - INFO - Fragments written to results/align_table/NlaIII_run01_batch10_Cavpor3.0_unphased.at.pore_c.parquet
+2022-08-23 20:23:53,401 - pore_c - INFO - Summary: 
+pass                    175665
 not_on_shortest_path     57070
-low_mq                   32291
-singleton                 9227
+low_mq                   32287
+singleton                 9229
 unmapped                   272
 overlap_on_read              1
 null                         0

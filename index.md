@@ -9,4 +9,4 @@
 
 ### GENOVA
 
-- [Data visualisation on test data](./scripts/06_data_visualisation/data_visualisation.html)
+- [Data visualisation on test data](./results/06_data_visualisation/data_visualisation.html)

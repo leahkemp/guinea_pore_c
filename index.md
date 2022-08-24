@@ -10,3 +10,7 @@
 ### GENOVA
 
 - [Data visualisation on test data](./results/06_data_visualisation/data_visualisation.html)
+
+### HiGlass
+
+- [Screenshot of interactive matrix](./results/06_data_visualisation/guinea_matrix_interactive_screenshot.png)

@@ -1,0 +1,176 @@
+---
+title: "Data visualisation"
+author: "Leah Kemp"
+date: "23/08/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# setup default chunk settings
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE, fig.align = "center")
+```
+
+```{r, eval = FALSE}
+# install packages
+install.packages("remotes")
+remotes::install_github("robinweide/GENOVA")
+install.packages("pkgfilecache")
+install.packages("strawr")
+install.packages("plotly")
+```
+
+```{r}
+# working from the docs
+# https://github.com/robinweide/GENOVA/blob/master/vignettes/GENOVA_vignette.pdf
+
+# set project directory
+project_dir <- "/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/"
+
+# load packages
+library(GENOVA)
+library(pkgfilecache)
+library(strawr)
+library(plotly)
+```
+
+```{r, eval = FALSE}
+# load .hic file
+hic <- GENOVA::load_contacts("/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic",
+                             sample_name = "guinea",
+                             resolution = 10e3,
+                             balancing = "KR",
+                             colour = "red")
+
+# load in centromere information
+#centromeres <- utils::read.delim("./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/juicebox/.bed",
+#                                 sep = "\t",
+#                                 header = FALSE,
+#                                 stringsAsFactors = FALSE)
+```
+
+```{r}
+# get test data
+test_data <- GENOVA::get_test_data("40k")
+```
+
+## Visualisation {.tabset .tabset-fade}
+
+### Cis-quantification
+
+"The expected amount of intra-chromosomal contacts is in the range of 90-93%. Assuming extra inter-chromosomal contacts are due to debris/noise, the user might aspire to get the cis-percentages as close to 90% as possible." (https://github.com/robinweide/GENOVA/blob/master/vignettes/GENOVA_vignette.pdf)
+
+```{r, out.width = "100%"}
+# compute percentage of per-sample cis-contacts
+cis_chrom <- GENOVA::cis_trans(test_data)
+
+# generate barplot of percentages cis per sample
+plotly::plot_ly(x = cis_chrom$sample,
+                y = cis_chrom$cis,
+                type = "bar",
+                textposition = "none",
+                name = "Raw sequencing \n read count",
+                hoverinfo = "text",
+                text = ~base::paste("</br> Sample:", cis_chrom$sample,
+                                    "</br> cis percentage:", base::format(cis_chrom$cis, big.mark = ",", scientific = FALSE, digits = 4), "%")) %>%
+  plotly::layout(xaxis = list(title = "Sample"),
+                 yaxis = list(title = "cis percentage"))
+```
+
+### RCP
+
+Relative Contact Probability (RCP), contact probability as a function of genomic distance
+
+```{r}
+# calculate the Relative Contact Probability (RCP)
+# contact probability as a function of genomic distance
+rcp <- GENOVA::RCP(explist = base::list(test_data),
+                   chromsToUse = "chr21")
+
+# plot
+GENOVA::visualise(rcp)
+```
+
+### Compartment scores
+
+```{r}
+# read in information on the active parts of the genome
+#peaks <- utils::read.delim(".bed",
+#                           header = FALSE)
+
+# calculate compartment scores using information on active parts of the genome
+cs <- GENOVA::compartment_score(test_data)
+
+# plot compartment scores on chromosome 21
+GENOVA::visualise(cs, chr = "chr21")
+```
+
+### Saddle plot
+
+```{r}
+# perform quantile vs. quantile analysis of compartment score
+saddle <- GENOVA::saddle(test_data,
+                         CS_discovery = cs,
+                         bins = 50)
+
+# plot saddle-plot
+GENOVA::visualise(saddle)
+```
+
+### Compartment strength
+
+```{r}
+# calculate compartment strength - score for how much A-A and B-B interactions occur vs. A-B interactions
+css <- GENOVA::quantify(saddle)
+
+compared <- tidyr::spread(base::unique(css[,-c(3,4)]), key = "exp", value = "strength")
+
+with(compared, plot(Hap1_WT_40k,
+                    xlim = c(0,7),
+                    ylim = c(0,7),
+                    pch = 20))
+abline(a = 0,
+       b = 1,
+       lty = 1)
+```
+
+### Interaction plots
+
+Cis compartment plot - observed over expected
+
+```{r}
+GENOVA::compartment_matrixplot(exp1 = test_data,
+                               CS_discovery = cs,
+                               chrom = "chr21",
+                               arm = "q",
+                               metric = "obsexp")
+```
+
+### Domainogram
+
+```{r}
+# calculate insulation domainogram
+id <- GENOVA::insulation_domainogram(test_data,
+                                     chrom = "chr21",
+                                     start = 25e6,
+                                     end = 29e6,
+                                     window_range = c(1, 101),
+                                     step = 2)
+
+# plot
+GENOVA::visualise(id)
+```
+
+### Computing the insulation score
+
+```{r}
+# calculate the genome wide insulation score
+insulation <- GENOVA::insulation_score(test_data,
+                                       window = 25)
+
+# plot
+GENOVA::visualise(insulation,
+                  chr = "chr21",
+                  start = 25e6,
+                  end = 29e6)
+```
+

@@ -37,7 +37,7 @@ echo ""
 echo "Creating conda environment with pipeline dependencies installed"
 echo ""
 
-#mamba env create --force -f $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/environment.yml
+mamba env create --force -f $project_dir/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/environment.yml
 conda activate pore-c-snakemake
 
 # generate pore-c snakemake pipeline DAG

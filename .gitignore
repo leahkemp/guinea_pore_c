@@ -23,3 +23,5 @@ results/04_pore_c_snakemake_pipeline_run/pipeline_run/pairs/
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.contacts.parquet
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.concatemers.parquet
 results/04_pore_c_snakemake_pipeline_run/pipeline_run/merged_contacts/NlaIII_run01_Cavpor3.0_unphased.fofn.txt
+
+.Rproj.user

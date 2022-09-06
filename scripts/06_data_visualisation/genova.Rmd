@@ -39,28 +39,13 @@ library(plotly)
 ```
 
 ```{r, eval = FALSE}
-# load .hic file
-hic <- GENOVA::load_contacts(signal_path = "/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/juicebox/NlaIII_run01_Cavpor3.0_unphased.hic",
-                             sample_name = "guinea",
-                             resolution = 10e3,
-                             balancing = "KR",
-                             colour = "red")
-
-# load in centromere information
-#centromeres <- utils::read.delim("./results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/juicebox/.bed",
-#                                 sep = "\t",
-#                                 header = FALSE,
-#                                 stringsAsFactors = FALSE)
-```
-
-```{r}
 # get test data
 test_data <- GENOVA::get_test_data("40k")
 ```
 
 ```{r}
 # try laod cooler file
-test <- GENOVA::load_contacts("/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/Pore-C-Snakemake/results/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.cool",
+data <- GENOVA::load_contacts("/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/results/04_pore_c_snakemake_pipeline_run/pipeline_run/matrix/NlaIII_run01_Cavpor3.0_unphased.matrix.mcool",
                              sample_name = "guinea",
                              balancing = "KR",
                              colour = "red")
@@ -74,7 +59,7 @@ test <- GENOVA::load_contacts("/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/
 
 ```{r, out.width = "100%"}
 # compute percentage of per-sample cis-contacts
-cis_chrom <- GENOVA::cis_trans(test)
+cis_chrom <- GENOVA::cis_trans(data)
 
 # generate barplot of percentages cis per sample
 plotly::plot_ly(x = cis_chrom$sample,
@@ -92,15 +77,21 @@ plotly::plot_ly(x = cis_chrom$sample,
 ### Chromosome plots
 
 ```{r}
-pyramid(exp = test,
+pyramid(exp = data,
         chrom = "NT_176402.1",
         start = 25e6,
         end = 30e6)
 ```
 
 ```{r}
-cen_tel <- GENOVA:centromere.telomere.analysis(Hap1_WT_40kb, chrom.vec = c('chr15', 'chr19'))
-GENOVA:draw.centromere.telomere(out1519)
+GENOVA::trans_matrixplot(exp1 = data,
+                         chrom_up = "NT_176419.1",
+                         start_up = 10e6,
+                         end_up = 30e6,
+                         chrom_down = "NT_176419.1",
+                         start_down = 49e6,
+                         end_down = 60e6,
+                         colour_bar = TRUE)
 ```
 
 ### RCP
@@ -112,7 +103,7 @@ Relative Contact Probability (RCP), contact probability as a function of genomic
 ```{r}
 # calculate the Relative Contact Probability (RCP)
 # contact probability as a function of genomic distance
-rcp <- GENOVA::RCP(explist = base::list(test))
+rcp <- GENOVA::RCP(explist = base::list(data))
 
 # plot
 GENOVA::visualise(rcp)
@@ -123,7 +114,7 @@ GENOVA::visualise(rcp)
 ```{r}
 # calculate the Relative Contact Probability (RCP)
 # contact probability as a function of genomic distance
-rcp <- GENOVA::RCP(explist = base::list(test),
+rcp <- GENOVA::RCP(explist = base::list(data),
                    chromsToUse = "NT_176419.1")
 
 # plot
@@ -138,7 +129,7 @@ GENOVA::visualise(rcp)
 #                           header = FALSE)
 
 # calculate compartment scores using information on active parts of the genome
-cs <- GENOVA::compartment_score(test)
+cs <- GENOVA::compartment_score(data)
 
 # plot compartment scores on chromosome NT_176419.1
 GENOVA::visualise(cs, chr = "NT_176419.1")
@@ -148,7 +139,7 @@ GENOVA::visualise(cs, chr = "NT_176419.1")
 
 ```{r}
 # perform quantile vs. quantile analysis of compartment score
-saddle <- GENOVA::saddle(test,
+saddle <- GENOVA::saddle(data,
                          CS_discovery = cs,
                          bins = 50)
 
@@ -178,7 +169,7 @@ abline(a = 0,
 Cis compartment plot - observed over expected
 
 ```{r}
-GENOVA::compartment_matrixplot(exp1 = test,
+GENOVA::compartment_matrixplot(exp1 = data,
                                CS_discovery = cs,
                                chrom = "chr21",
                                arm = "q",
@@ -189,7 +180,7 @@ GENOVA::compartment_matrixplot(exp1 = test,
 
 ```{r}
 # calculate insulation domainogram
-id <- GENOVA::insulation_domainogram(test,
+id <- GENOVA::insulation_domainogram(data,
                                      chrom = "chr21",
                                      start = 25e6,
                                      end = 29e6,
@@ -204,7 +195,7 @@ GENOVA::visualise(id)
 
 ```{r}
 # calculate the genome wide insulation score
-insulation <- GENOVA::insulation_score(test,
+insulation <- GENOVA::insulation_score(data,
                                        window = 25)
 
 # plot

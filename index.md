@@ -13,4 +13,4 @@
 
 ### HiGlass
 
-- [Screenshot of interactive matrix](./results/06_data_visualisation/guinea_matrix_interactive_screenshot.png)
+- [Screenshot of interactive matrix](./results/06_data_visualisation/guinea_interactive_matrix_screenshot.png)

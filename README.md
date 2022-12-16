@@ -25,8 +25,7 @@ This relates to the guinea pore-c project undertaken by the human genomics group
 
 ## Access
 
-- The github repository for this project is private, please contact Leah Kemp if you require access :) (leah.kemp@esr.cri.nz, leahmhkemp@gmail.com, https://github.com/leahkemp)
-- If for some reason Leah Kemp is not available to provide access to this private github repository, contact Richard White who is listed as a successor for Leah Kemp's github account (richardwhitenz@gmail.com, https://github.com/rjwnz)
+- The github repository for this project is public
 - For other general queries about this project beyond the bioinformatics, contact the current (2022) representatives of the ESR genomics group, Donia Macartney-Coxson (Donia.Macartney-Coxson@esr.cri.nz) and/or Joep de Ligt (joep.deligt@esr.cri.nz)
 
 ## Github repository

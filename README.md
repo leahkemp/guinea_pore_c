@@ -2,7 +2,7 @@
 
 ## General info
 
-This relates to the reference genome assembly of the humble guinea pig (Cavia porcellus) undertaken by the human genomics group at ESR (yes the irony I know). Building a better reference genome assembly for the wee guinea pig aim to improve the genetic analsyses in studies on premature birth using guinea pig's as a model organism.
+This relates to the reference genome assembly of the humble guinea pig (*Cavia porcellus*) undertaken by the human genomics group at ESR (yes the irony I know). Building a better reference genome assembly for the wee guinea pig aim to improve the genetic analsyses in studies on premature birth using guinea pig's as a model organism.
 
 ## Raw data location
 

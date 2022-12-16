@@ -2,7 +2,7 @@
 
 ## General info
 
-This relates to the reference genome assembly of the humble guinea pig (*Cavia porcellus*) undertaken by the human genomics group at ESR (yes the irony I know). Building a better reference genome assembly for the wee guinea pig is an attempt to improve the genetic analyses in studies on premature birth which use the guinea pig as a model organism. Oxford Nanopore Technologies (ONT) [pore-c](https://nanoporetech.com/resource-centre/porec) data.
+This relates to the reference genome assembly of the humble guinea pig (*Cavia porcellus*) undertaken by the human genomics group at ESR (yes the irony I know). Building a better reference genome assembly for the wee guinea pig is an attempt to improve the genetic analyses in studies on premature birth using the guinea pig as a model organism. Oxford Nanopore Technologies (ONT) [pore-c](https://nanoporetech.com/resource-centre/porec) data.
 
 ## Raw data location
 

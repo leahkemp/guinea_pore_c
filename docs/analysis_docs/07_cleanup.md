@@ -44,6 +44,10 @@ rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/pipeline_dag.png
 
 rm -rf ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/pipeline_rulegraph.png
 
+rm -rf ./results/04_pore_c_snakemake_pipeline_run/contacts/
+
+rm -rf ./results/04_pore_c_snakemake_pipeline_run/align_table/
+
 rm -rf ./results/README.md
 
 rm -rf ./results/05_look_at_outputs/

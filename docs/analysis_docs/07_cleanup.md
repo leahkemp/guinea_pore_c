@@ -10,11 +10,25 @@
 ```bash
 rm -rf ./config/
 
-rm -r ./data/
+rm -rf ./data/
+
+rm -rf .Rproj.user
+
+rm -rf _config.yml
+
+rm -rf .gitignore
+
+rm -rf .Rhistory
+
+rm -rf index.md
+
+rm -rf guinea_pore_c.Rproj
 
 rm -rf ./docs/
 
 rm -rf ./logs/
+
+rm -rf ./scripts/
 
 rm -rf ./results/02_basecalling/
 

@@ -70,7 +70,7 @@ rm -rf ./.git/
 
 ```bash
 cd /NGS/scratch/KSCBIOM/HumanGenomics/
-mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/ /NGS/clinicalgenomics/archive/2022/analyses/
+mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/ /NGS/clinicalgenomics/archive/2022/results/
 ```
 
 ## Output files
@@ -78,7 +78,7 @@ mv /NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/ /NGS/clinicalgenomics/archi
 Additional files remaining after cleaning up (everything kept and *not* included in the github repo)
 
 ```bash
-cd /NGS/clinicalgenomics/archive/2022/analyses/guinea_pore_c/
+cd /NGS/clinicalgenomics/archive/2022/results/guinea_pore_c/
 
 ls -lhv ./results/04_pore_c_snakemake_pipeline_run/pipeline_run/mapping/
 ```

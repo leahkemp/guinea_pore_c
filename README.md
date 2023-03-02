@@ -11,7 +11,7 @@ This relates to the reference genome assembly of the humble guinea pig (*Cavia p
 ## Analysis location
 
 - This analysis was for the most part carried out at `/NGS/scratch/KSCBIOM/HumanGenomics/guinea_pore_c/` on ESR's production network
-- A minimal version of the analyses were stored/backed up at `/NGS/clinicalgenomics/archive/2022/analyses/guinea_pore_c/` on ESR's production network
+- A minimal version of the analyses were stored/backed up at `/NGS/clinicalgenomics/archive/2022/results/guinea_pore_c/` on ESR's production network
 
 ## Analysis workflow for reproducing this analysis
 
